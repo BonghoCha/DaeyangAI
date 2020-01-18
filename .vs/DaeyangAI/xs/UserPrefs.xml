@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{3629935D-ED78-8050-E1E2-1CD699E7AD66}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Crawling.cs">
+    <Files>
+      <File FileName="Assets/Crawling.cs" Line="29" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1f6f679c-6cde-4ac5-9bd7-c9885f4902c7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
