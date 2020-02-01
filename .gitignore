@@ -17,7 +17,9 @@ Library/
 # ===================================== #
  
 # Visual Studio / MonoDevelop generated #
- 
+
+ # Visual Studio cache directory
+.vs/
 # ===================================== #
  
 ExportedObj/
