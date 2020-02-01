@@ -7,65 +7,58 @@ using UnityEngine.UI;
 public class Crawling : MonoBehaviour
 {
     bool isStart = true;
-    Notice[] notices;
     int debug = 0;
-
-    struct Notice
-    {
-        public string title;
-        public string date;
-        public string url;
-    }
+    const int MAX_NOTICE_LENGTH = 10;
+    Dictionary<string, List<string>> notices = new Dictionary<string, List<string>>() {
+        { "index", new List<string>() },
+        { "date", new List<string>() },
+        { "href", new List<string>() }
+    };
 
     public void op()
     {
         debug++;
-        if (debug == 10) debug = 0;
-        Application.OpenURL(notices[debug].url);
-        Debug.Log(notices[debug].url);
+        if (debug == MAX_NOTICE_LENGTH) debug = 0;
+        Application.OpenURL(notices["href"][0]);
     }
 
     void FindElements(UnityWebRequest webRequest, string keyword)
     {
         var handler = webRequest.downloadHandler;
-
-        var index = 0;
+        var htmlStr = handler.text;
          
-        // Initial Start Index
-        int start = handler.text.IndexOf("tbody", 0);
-        start = handler.text.IndexOf(keyword, start);
-
-        while (start != -1)
-        {
-            switch (keyword){
-                case "date" : {
-                    start = handler.text.IndexOf(">", start) + 1;
-                    notices[index++].date = handler.text.Substring(start, handler.text.IndexOf("<", start) - start);
-                    Debug.Log(notices[index].date + " ,"     +index);
-                    break;
-                }
-                case "title":
+        // Initialize Start Index
+        int start = htmlStr.IndexOf("tbody", 0);
+        start = htmlStr.IndexOf(keyword, start);
+        for (var index = 0; start != -1 && index <= 10; index++)
+        {           
+            switch (keyword)
+            {
+                case "href":
                     {
-                        start = handler.text.IndexOf(">", start) + 1;
-                        notices[index++].date = handler.text.Substring(start, handler.text.IndexOf("<", start) - start);
-                        Debug.Log(notices[index].date + " ," + index);
+                        start = htmlStr.IndexOf("board", start);
+                        var url = "http://board.sejong.ac.kr/" + htmlStr.Substring(start, (htmlStr.IndexOf(">", start) - 1) - start);
+                        notices[keyword].Add(url.Replace('^', '&'));
                         break;
                     }
-                case "href":
-                {
-                    start = handler.text.IndexOf("board", start);
-                    notices[index].url = "http://board.sejong.ac.kr/" + handler.text.Substring(start, (handler.text.IndexOf(">", start)-1) - start);
-                    notices[index].url = notices[index].url.Replace('^', '&');
-
-                    index++;
-                    if (index == 10) return;
-                    break;
-                }
+                default:
+                    {
+                        start = htmlStr.IndexOf(">", start) + 1;
+                        notices[keyword].Add(htmlStr.Substring(start, htmlStr.IndexOf("<", start) - start));
+                        break;
+                    }
             }
-
-            start = handler.text.IndexOf(keyword, start);
+            start = htmlStr.IndexOf(keyword, start);
         }
     }
+
+    void setNoticeButtons(UnityWebRequest webRequest)
+    {
+        FindElements(webRequest, "index");
+        FindElements(webRequest, "date");
+        FindElements(webRequest, "href");
+    }
+
     void Start()
     {
         // A correct website page.
@@ -73,8 +66,6 @@ public class Crawling : MonoBehaviour
 
         // A non-existing page.
         StartCoroutine(GetRequest("https://error.html"));
-
-        notices = new Notice[20];
     }
 
     IEnumerator GetRequest(string uri)
@@ -93,13 +84,7 @@ public class Crawling : MonoBehaviour
             }
             else
             {
-
-                FindElements(webRequest, "date");
-                FindElements(webRequest, "href");
-                for (var i = 0; i < 10; i++)
-                {
-                    Debug.Log(notices[i].date + "/" + notices[i].url);
-                }
+                setNoticeButtons(webRequest);
                 GameObject.Find("Debug").GetComponent<Text>().text = webRequest.downloadHandler.text;
             }
         }
