@@ -610,6 +610,7 @@ namespace AssetPackage
                 }
 
                 Expressions.Add(expression);
+                //Log(Severity.Warning, "Error defining {0} message", expression);
 
                 return true;
             }

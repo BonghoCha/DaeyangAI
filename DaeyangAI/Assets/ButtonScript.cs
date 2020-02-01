@@ -8,9 +8,24 @@ using System.Linq;
 using System.Runtime.InteropServices;
 
 using AssetPackage;
+using System.Collections;
 
 public class ButtonScript : MonoBehaviour
 {
+    bool is_start = false;
+    bool is_checked = false;
+
+    string[] lines = new string[10];
+    int cnt = 0;
+
+    public IEnumerator CheckTime()
+    {
+        Debug.Log("시작");
+        yield return new WaitForSeconds(3.0f);
+        Debug.Log("끝");
+        is_checked = false;
+        is_start = false;
+    }
     //! http://answers.unity3d.com/questions/909967/getting-a-web-cam-to-play-on-ui-texture-image.html
 
     /// <summary>
@@ -354,6 +369,9 @@ public class ButtonScript : MonoBehaviour
         ProcessColor32(texture.GetPixels32(), texture.width, texture.height);
     }
 
+
+
+
     /// <summary>
     /// Process the color 32.
     /// </summary>
@@ -365,6 +383,8 @@ public class ButtonScript : MonoBehaviour
     /// <param name="pixels"> The pixels. </param>
     /// <param name="width">  The width. </param>
     /// <param name="height"> The height. </param>
+    /// 
+
     private void ProcessColor32(Color32[] pixels, Int32 width, Int32 height)
     {
         // Convert raw ARGB data into a byte array.
@@ -394,6 +414,7 @@ public class ButtonScript : MonoBehaviour
             // 
             if (eda.ProcessFaces())
             {
+                is_checked = true;
                 // Process landmarks into emotions using fuzzy logic.
                 // 
                 if (eda.ProcessLandmarks())
@@ -408,12 +429,42 @@ public class ButtonScript : MonoBehaviour
 
                         // Extract (averaged) emotions of the first face only.
                         // 
+
                         emos[emo] = eda[0, emo];
+
+                        if ((emos[emo] >= 0.86) && (!is_start) && (is_checked))
+                        {
+                            is_start = true;
+                            StartCoroutine("CheckTime");
+                            //GameObject.Find("Emo").GetComponent<Text>().text = emo;
+                            if (is_start)
+                            {
+
+                                Debug.Log("" + emo);
+          
+
+                                using (StreamWriter outputFile = new StreamWriter(@"C:\Users\Jisue\Documents\GitHub\DaeyangAI\DaeyangAI\emofile.txt"))
+                                {
+                                    if (is_start)
+                                    {
+                                        for (int i = 0; i < cnt; i++)
+                                        {
+                                            outputFile.WriteLine(lines[i]);
+                                        }
+                                        lines[cnt] = emo;
+                                        outputFile.WriteLine(lines[cnt]);
+                                        cnt++;
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     //Create the emotion strings.
                     // 
                     emotions.text = String.Join("\r\n", emos.OrderBy(p => p.Key).Select(p => String.Format("{0}={1:0.00}", p.Key, p.Value)).ToArray());
+                    //print("msg: " + emotions.text);
+                    //Debug.Log("msg: " + emotions.text);
                 }
                 else
                 {
@@ -481,7 +532,7 @@ public class ButtonScript : MonoBehaviour
 
                     foreach (String emo in eda.Emotions)
                     {
-                        // Debug.LogFormat("{0} scores {1}.", emo, eda[0, emo]);
+                        //Debug.LogFormat("{0} scores {1}.", emo, eda[0, emo]);
                         emos[emo] = eda[0, emo];
                     }
 
