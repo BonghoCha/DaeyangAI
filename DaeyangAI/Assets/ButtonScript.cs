@@ -14,17 +14,40 @@ public class ButtonScript : MonoBehaviour
 {
     bool is_start = false;
     bool is_checked = false;
+    bool is_waiting = false;
+    bool is_print = false;
+    bool ca_app = false;
+    bool ca_button = false;
 
-    string[] lines = new string[10];
-    int cnt = 0;
+    int neg = 0;
+    int hap = 0;
+    int neu = 0;
+    int sur = 0;
+
+    int findmax = 0;
+
+    string findemo = "";
+
+
+
+    //string[] lines = new string[10];
+    //int cnt = 0;
 
     public IEnumerator CheckTime()
     {
         Debug.Log("시작");
+        is_waiting = true;
         yield return new WaitForSeconds(3.0f);
-        Debug.Log("끝");
         is_checked = false;
-        is_start = false;
+        is_start = true;
+        is_waiting = false;
+        is_print = true;
+        Debug.Log("끝");
+        neg = 0;
+        hap = 0;
+        neu = 0;
+        sur = 0;
+        findmax = 0;
     }
     //! http://answers.unity3d.com/questions/909967/getting-a-web-cam-to-play-on-ui-texture-image.html
 
@@ -77,6 +100,14 @@ public class ButtonScript : MonoBehaviour
     /// </summary>
     void Start()
     {
+        /*
+        string date = DateTime.Now.ToString("yyyy_MM_dd_HH");
+        Debug.Log(date);
+        if (date == "2020_02_11_20")
+        {
+            Time.timeScale = 0;
+        }
+        */
         //1) Enumerate webcams
         //
         WebCamDevice[] devices = WebCamTexture.devices;
@@ -96,7 +127,7 @@ public class ButtonScript : MonoBehaviour
 
         //! https://answers.unity3d.com/questions/1101792/how-to-post-process-a-webcamtexture-in-realtime.html
         //3) Create a WebCamTexture (size should not be to big)
-        webcam = new WebCamTexture(640, 480);
+        webcam = new WebCamTexture(640, 480); // (Screen.width, Screen.height) 
 
         //4) Assign the texture to an image in the UI to see output (these two lines are not necceasary if you do 
         //   not want to show the webcam video, but might be handy for debugging purposes)
@@ -147,6 +178,8 @@ public class ButtonScript : MonoBehaviour
     /// </summary>
     void Update()
     {
+        //end = false;
+        //Invoke("CheckTime", 5.0f);
         // 1) Check if the data array is allocated and we have a created a valid EmotionDetectionAsset.
         //    If so, process every 5th frame.
         // 
@@ -215,8 +248,8 @@ public class ButtonScript : MonoBehaviour
         if (File.Exists(filePath))
         {
             fileData = File.ReadAllBytes(filePath);
-            tex = new Texture2D(640, 864, TextureFormat.RGBA32, false);
-            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+            tex = new Texture2D(640, 864, TextureFormat.RGBA32, false); //(texture.width, texture.height, TextureFormat.RGB24, false)
+            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions. 텍스쳐 크기가 자동 조정.
         }
         return tex;
     }
@@ -384,9 +417,11 @@ public class ButtonScript : MonoBehaviour
     /// <param name="width">  The width. </param>
     /// <param name="height"> The height. </param>
     /// 
-
     private void ProcessColor32(Color32[] pixels, Int32 width, Int32 height)
     {
+
+        //RectTransform face = GameObject.Find("T_Image").GetComponent<RectTransform>();
+
         // Convert raw ARGB data into a byte array.
         // 
         byte[] raw = Color32ArrayToByteArray(pixels);
@@ -414,9 +449,9 @@ public class ButtonScript : MonoBehaviour
             // 
             if (eda.ProcessFaces())
             {
-                is_checked = true;
                 // Process landmarks into emotions using fuzzy logic.
                 // 
+                is_checked = true;
                 if (eda.ProcessLandmarks())
                 {
                     // Extract results.
@@ -432,39 +467,99 @@ public class ButtonScript : MonoBehaviour
 
                         emos[emo] = eda[0, emo];
 
-                        if ((emos[emo] >= 0.86) && (!is_start) && (is_checked))
+
+
+                        if ((emos[emo] >= 0.86 && ca_app == false) || (emos[emo] >= 0.86 && ca_app == true && ca_button == true))
                         {
-                            is_start = true;
-                            StartCoroutine("CheckTime");
-                            //GameObject.Find("Emo").GetComponent<Text>().text = emo;
-                            if (is_start)
+                            if (is_print)
                             {
+                                EmoionStationery(findemo);
+                                //GameObject.Find("Emo").GetComponent<Text>().text = emo;
 
+                                string path = @"C:\Users\Jisue\Documents\GitHub\DaeyangAI\DaeyangAI\";
+
+                                string datefile = DateTime.Now.ToString("yyyy_MM_dd");
+
+                                File.AppendAllText(path + datefile + "_emofile.txt", findemo + "\r\n");
+
+                                is_print = false;
+                            }
+
+                            if (!is_waiting)
+                            {
+                                StartCoroutine("CheckTime");
+                            }
+
+
+
+                            if (is_waiting)
+                            {
                                 Debug.Log("" + emo);
-          
 
-                                using (StreamWriter outputFile = new StreamWriter(@"C:\Users\Jisue\Documents\GitHub\DaeyangAI\DaeyangAI\emofile.txt"))
+                                if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
                                 {
-                                    if (is_start)
+                                    neg++;
+                                    if (findmax < neg)
                                     {
-                                        for (int i = 0; i < cnt; i++)
-                                        {
-                                            outputFile.WriteLine(lines[i]);
-                                        }
-                                        lines[cnt] = emo;
-                                        outputFile.WriteLine(lines[cnt]);
-                                        cnt++;
+                                        findmax = neg;
+                                        findemo = "Negative";
                                     }
                                 }
+                                if (emo == "Happy")
+                                {
+                                    hap++;
+                                    if (findmax < hap)
+                                    {
+                                        findmax = hap;
+                                        findemo = emo;
+                                    }
+                                }
+                                if (emo == "Neutral")
+                                {
+                                    neu++;
+                                    if (findmax < neu)
+                                    {
+                                        findmax = neu;
+                                        findemo = emo;
+                                    }
+                                }
+
+                                if (emo == "Surprise")
+                                {
+                                    sur++;
+                                    if (findmax < sur)
+                                    {
+                                        findmax = sur;
+                                        findemo = emo;
+                                    }
+                                }
+                                is_start = false;
                             }
+
                         }
                     }
+
+
+                    //foreach (var temp in eda.Faces)
+                    //{
+                    //    Debug.Log(temp.Key);
+
+                    //    face.offsetMax = new Vector2(temp.Key.Right, temp.Key.Bottom);
+                    //    face.offsetMin = new Vector2(temp.Key.Left, temp.Key.Top);
+
+                    //    if ((temp.Key.Bottom - temp.Key.Top) * (temp.Key.Right - temp.Key.Left)>80000)
+                    //    {
+                    //        webcam.Stop();
+                    //    }
+                    //}
+
 
                     //Create the emotion strings.
                     // 
                     emotions.text = String.Join("\r\n", emos.OrderBy(p => p.Key).Select(p => String.Format("{0}={1:0.00}", p.Key, p.Value)).ToArray());
                     //print("msg: " + emotions.text);
-                    //Debug.Log("msg: " + emotions.text);
+                    //emotions.text = Log result in Console
+                    is_checked = false;
                 }
                 else
                 {
@@ -552,5 +647,155 @@ public class ButtonScript : MonoBehaviour
         {
             msg.text = "No Face(s) detected";
         }
+    }
+
+    /*
+
+        public void emo_txt_read()
+        {
+            string datefile = DateTime.Now.ToString("yyyy_MM_dd");
+            string path = @"C:\Users\gusqh\Desktop\DaeyangAI\DaeyangAI\"; + datefile + "_emofile.txt";
+            string[] textValue = System.IO.File.ReadAllLines(path);
+            if (textValue.Length > 0)
+            {
+                for (int i = 0; i < textValue.Length; i++)
+                {
+                    if (textValue[i] == "Anger")
+                    {
+                        ang++;
+                        if (findmax < ang)
+                        {
+                            findmax = ang;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Disgust")
+                    {
+                        dis++;
+                        if (findmax < dis)
+                        {
+                            findmax = dis;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Fear")
+                    {
+                        fea++;
+                        if (findmax < fea)
+                        {
+                            findmax = fea;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Happy")
+                    {
+                        hap++;
+                        if (findmax < hap)
+                        {
+                            findmax = hap;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Neutral")
+                    {
+                        neu++;
+                        if (findmax < neu)
+                        {
+                            findmax = neu;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Sad")
+                    {
+                        sad++;
+                        if (findmax < sad)
+                        {
+                            findmax = sad;
+                            findemo = textValue[i];
+                        }
+                    }
+                    if (textValue[i] == "Surprise")
+                    {
+                        sur++;
+                        if (findmax < sur)
+                        {
+                            findmax = sur;
+                            findemo = textValue[i];
+                        }
+                    }
+                }
+                Debug.Log("" + findemo + " " + findmax);
+            }
+        }
+        */
+
+    public void EmoionStationery(string em)
+    {
+        int ran = UnityEngine.Random.Range(0, 3);
+        string st = "";
+        if (em == "Negative")
+        {
+            if (ran == 0)
+            {
+                st = "제가..뭘 잘못했나요..?";
+            }
+            if (ran == 1)
+            {
+                st = "공부가 많이 힘들죠? 좋은 일이 생길거에요!";
+            }
+            if (ran == 2 || ran == 3)
+            {
+                st = "저 이상한 인공지능 아니에요..ㅠㅠ";
+            }
+        }
+        if (em == "Happy")
+        {
+            if (ran == 0)
+            {
+                st = "좋은 일 있으신 가봐요!";
+            }
+            if (ran == 1)
+            {
+                st = "^__________^";
+            }
+            if (ran == 2 || ran == 3)
+            {
+                st = "저도 기분이 좋네요!";
+            }
+        }
+        if (em == "Neutral")
+        {
+            if (ran == 0)
+            {
+                st = "활짝 웃어볼까요?";
+            }
+            if (ran == 1)
+            {
+                st = "표정에 영혼이 없네요..";
+            }
+            if (ran == 2 || ran == 3)
+            {
+                st = "난 아무 생각이 없다. 왜냐면 아무 생각이 없기 때문이다.";
+            }
+        }
+        if (em == "Surprise")
+        {
+            if (ran == 0)
+            {
+                st = "입을 크게 벌리면 얼굴 운동이 된대요!";
+            }
+            if (ran == 1)
+            {
+                st = "허걱";
+            }
+            if (ran == 2 || ran == 3)
+            {
+                st = "호고곡";
+            }
+        }
+        Debug.Log(em);
+        Debug.Log(st);
+        GameObject.Find("EM_Text").GetComponent<Text>().text = em;
+        GameObject.Find("EM_St").GetComponent<Text>().text = st;
     }
 }
