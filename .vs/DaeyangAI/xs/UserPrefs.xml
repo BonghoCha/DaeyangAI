@@ -1,14 +1,29 @@
 ﻿<Properties StartupConfiguration="{3629935D-ED78-8050-E1E2-1CD699E7AD66}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Editor/UnityWebViewPostprocessBuild.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/test.cs">
     <Files>
       <File FileName="Assets/Crawling.cs" Line="33" Column="54" />
-      <File FileName="Assets/Scripts/SampleWebView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/Editor/UnityWebViewPostprocessBuild.cs" Line="154" Column="22" />
+      <File FileName="Assets/Resources/CSVReader.cs" Line="21" Column="1" />
+      <File FileName="Assets/Resources/test.cs" Line="51" Column="34" />
+      <File FileName="Assets/Resources/exp.csv" Line="1" Column="15" />
+      <File FileName="Assets/Resources/Contact.csv" Line="101" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DaeyangAI" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="test.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7682538d-bf70-4c2a-8549-3aac6db2c04a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c62f1c82-59ed-4e74-90c8-8a0142d1f7a8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
