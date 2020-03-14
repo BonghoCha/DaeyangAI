@@ -62,7 +62,16 @@ public class Crawling : MonoBehaviour
     void Start()
     {
         // A correct website page.
+        // 전체공지
         StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333"));
+        // 학사
+        StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335"));
+        // 국제교류
+        StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=674"));
+        // 취업/장학
+        StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=337"));
+        // 교내모집
+        StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=339"));
 
         // A non-existing page.
         StartCoroutine(GetRequest("https://error.html"));
@@ -91,7 +100,5 @@ public class Crawling : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-    }
+    // void Update(){}
 }

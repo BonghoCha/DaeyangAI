@@ -486,6 +486,11 @@ public class ButtonScript : MonoBehaviour
                     }
 
                     emotions.text = String.Join("\r\n", emos.OrderBy(p => p.Key).Select(p => String.Format("{0}={1:0.00}", p.Key, p.Value)).ToArray());
+
+                    foreach (var temp in eda.Faces)
+                    {
+                        Debug.Log(temp);
+                    }
                 }
                 else
                 {
