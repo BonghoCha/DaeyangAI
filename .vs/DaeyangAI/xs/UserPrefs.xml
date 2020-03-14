@@ -1,14 +1,28 @@
 ﻿<Properties StartupConfiguration="{3629935D-ED78-8050-E1E2-1CD699E7AD66}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Editor/UnityWebViewPostprocessBuild.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Crawling.cs">
     <Files>
-      <File FileName="Assets/Crawling.cs" Line="33" Column="54" />
-      <File FileName="Assets/Scripts/SampleWebView.cs" Line="1" Column="1" />
+      <File FileName="Assets/Crawling.cs" Line="157" Column="34" />
+      <File FileName="Assets/Scripts/SampleWebView.cs" />
       <File FileName="Assets/Plugins/Editor/UnityWebViewPostprocessBuild.cs" Line="154" Column="22" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DaeyangAI" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="Editor" expanded="True" />
+              </Node>
+              <Node name="Crawling.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7682538d-bf70-4c2a-8549-3aac6db2c04a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="70b5192f-4b37-49d2-9542-2d9fc77f5ddf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
