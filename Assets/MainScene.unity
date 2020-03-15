@@ -2247,7 +2247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &306788652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8548,7 +8548,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_blind: {fileID: 1809563345}
-  m_inpopup_buttons: []
+  m_outpopup_buttons:
+  - {fileID: 732382389}
+  - {fileID: 1705078951}
+  - {fileID: 1620997373}
+  - {fileID: 172805041}
+  - {fileID: 1809239842}
+  m_inpopup_buttons:
+  - {fileID: 123239823}
+  - {fileID: 483510325}
+  - {fileID: 1536813575}
+  - {fileID: 933438391}
+  - {fileID: 2109389841}
 --- !u!114 &2100028733
 MonoBehaviour:
   m_ObjectHideFlags: 0
