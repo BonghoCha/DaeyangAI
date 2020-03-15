@@ -81,7 +81,6 @@ public class Crawling : MonoBehaviour
             var count = 0;
             for (var i = 0; i < MAX_NOTICE_LENGTH; i++)
             {
-                Debug.Log(notices["date"][i]);
                 if (notices["date"][i] == today)
                 {
                     count++;
