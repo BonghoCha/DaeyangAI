@@ -1,37 +1,62 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class Crawling : MonoBehaviour
 {
-    bool isStart = true;
-    int debug = 0;
     const int MAX_NOTICE_LENGTH = 10;
-    Dictionary<string, List<string>> notices = new Dictionary<string, List<string>>() {
+    // 전체공지
+    Dictionary<string, List<string>> all_notices = new Dictionary<string, List<string>>() {
+        { "name", new List<string>() },
         { "index", new List<string>() },
         { "date", new List<string>() },
-        { "href", new List<string>() }
+        { "href", new List<string>() },
     };
+    // 학사
+    Dictionary<string, List<string>> ba_notices = new Dictionary<string, List<string>>() {
+        { "name", new List<string>() },
+        { "index", new List<string>() },
+        { "date", new List<string>() },
+        { "href", new List<string>() },
+    };
+    // 국제교류
+    Dictionary<string, List<string>> ie_notices = new Dictionary<string, List<string>>() {
+        { "name", new List<string>() },
+        { "index", new List<string>() },
+        { "date", new List<string>() },
+        { "href", new List<string>() },
+    };
+    // 취업/교내모집
+    Dictionary<string, List<string>> ic_notices = new Dictionary<string, List<string>>() {
+        { "name", new List<string>() },
+        { "index", new List<string>() },
+        { "date", new List<string>() },
+        { "href", new List<string>() },
+    };
+    // 교내모집
+    Dictionary<string, List<string>> cr_notices = new Dictionary<string, List<string>>() {
+        { "name", new List<string>() },
+        { "index", new List<string>() },
+        { "date", new List<string>() },
+        { "href", new List<string>() },
+    };
+    string today;
+    public GameObject[] updates;
+    public GameObject[] popup_updates;
 
-    public void op()
-    {
-        debug++;
-        if (debug == MAX_NOTICE_LENGTH) debug = 0;
-        Application.OpenURL(notices["href"][0]);
-    }
-
-    void FindElements(UnityWebRequest webRequest, string keyword)
+    void FindElements(UnityWebRequest webRequest, string keyword, Dictionary<string, List<string>> notices)
     {
         var handler = webRequest.downloadHandler;
         var htmlStr = handler.text;
-         
+
         // Initialize Start Index
         int start = htmlStr.IndexOf("tbody", 0);
         start = htmlStr.IndexOf(keyword, start);
-        for (var index = 0; start != -1 && index <= 10; index++)
-        {           
+        for (var index = 0; start != -1 && index <= MAX_NOTICE_LENGTH; index++)
+        {
             switch (keyword)
             {
                 case "href":
@@ -50,17 +75,87 @@ public class Crawling : MonoBehaviour
             }
             start = htmlStr.IndexOf(keyword, start);
         }
+
+        if (keyword == "date")
+        {
+            var count = 0;
+            for (var i = 0; i < MAX_NOTICE_LENGTH; i++)
+            {
+                Debug.Log(notices["date"][i]);
+                if (notices["date"][i] == today)
+                {
+                    count++;
+                }
+            }
+            if (count > 0) {
+                if (notices["name"][0].Equals("all")){
+                    updates[0].SetActive(true);
+                    updates[0].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+
+                    popup_updates[0].SetActive(true);
+                    popup_updates[0].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+                }
+                else if (notices["name"][0].Equals("ba"))
+                {
+                    updates[1].SetActive(true);
+                    updates[1].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+
+                    popup_updates[1].SetActive(true);
+                    popup_updates[1].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+                }
+                else if (notices["name"][0].Equals("ie"))
+                {
+                    updates[2].SetActive(true);
+                    updates[2].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+
+                    popup_updates[2].SetActive(true);
+                    popup_updates[2].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+                }
+                else if (notices["name"][0].Equals("ic"))
+                {
+                    updates[3].SetActive(true);
+                    updates[3].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+
+                    popup_updates[3].SetActive(true);
+                    popup_updates[3].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+                }
+                else if (notices["name"][0].Equals("cr"))
+                {
+                    updates[4].SetActive(true);
+                    updates[4].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+
+                    popup_updates[4].SetActive(true);
+                    popup_updates[4].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = count + "";
+                }
+            }
+        }
     }
 
-    void setNoticeButtons(UnityWebRequest webRequest)
+    void setNoticeButtons(UnityWebRequest webRequest, Dictionary<string, List<string>> notice)
     {
-        FindElements(webRequest, "index");
-        FindElements(webRequest, "date");
-        FindElements(webRequest, "href");
+        FindElements(webRequest, "index", notice);
+        FindElements(webRequest, "date", notice);
+        FindElements(webRequest, "href", notice);
+    }
+
+    string ConvertDate()
+    {
+        var Date = System.DateTime.Now;
+
+        string year = Date.Year + "";
+        string month = Date.Month + "";
+        if (int.Parse(month) < 10) month = "0" + month;
+        string day = Date.Day + "";
+        if (int.Parse(day) < 10) day = "0" + day;
+
+        day = "13";
+        return year + "." + month + "." + day;
     }
 
     void Start()
     {
+        today = ConvertDate();
+
         // A correct website page.
         // 전체공지
         StartCoroutine(GetRequest("http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333"));
@@ -93,8 +188,31 @@ public class Crawling : MonoBehaviour
             }
             else
             {
-                setNoticeButtons(webRequest);
-                GameObject.Find("Debug").GetComponent<Text>().text = webRequest.downloadHandler.text;
+                if (uri == "http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333")
+                {
+                    all_notices["name"].Add("all");
+                    setNoticeButtons(webRequest, all_notices);
+                }
+                else if (uri == "http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335")
+                {
+                    ba_notices["name"].Add("ba");
+                    setNoticeButtons(webRequest, ba_notices);
+                }
+                else if (uri == "http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=674")
+                {
+                    ie_notices["name"].Add("ie");
+                    setNoticeButtons(webRequest, ie_notices);
+                }
+                else if (uri == "http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=337")
+                {
+                    ic_notices["name"].Add("ic");
+                    setNoticeButtons(webRequest, ic_notices);
+                }
+                else if (uri == "http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=339")
+                {
+                    cr_notices["name"].Add("cr");
+                    setNoticeButtons(webRequest, cr_notices);
+                }
             }
         }
     }
