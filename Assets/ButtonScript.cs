@@ -38,10 +38,11 @@ public class ButtonScript : MonoBehaviour
         Debug.Log("시작");
         is_waiting = true;
         yield return new WaitForSeconds(3.0f);
+        is_print = true;
         is_checked = false;
         is_start = true;
+        ca_button = false;
         is_waiting = false;
-        is_print = true;
         Debug.Log("끝");
         neg = 0;
         hap = 0;
@@ -471,19 +472,7 @@ public class ButtonScript : MonoBehaviour
 
                         if ((emos[emo] >= 0.86 && ca_app == false) || (emos[emo] >= 0.86 && ca_app == true && ca_button == true))
                         {
-                            if (is_print)
-                            {
-                                EmoionStationery(findemo);
-                                //GameObject.Find("Emo").GetComponent<Text>().text = emo;
 
-                                string path = @"Assets\Emo_Saving\";
-
-                                string datefile = DateTime.Now.ToString("yyyy_MM_dd");
-
-                                File.AppendAllText(path + datefile + "_emofile.txt", findemo + "\r\n");
-
-                                is_print = false;
-                            }
 
                             if (!is_waiting)
                             {
@@ -536,6 +525,19 @@ public class ButtonScript : MonoBehaviour
                                 is_start = false;
                             }
 
+                        }
+                        if (is_print)
+                        {
+                            EmoionStationery(findemo);
+                            //GameObject.Find("Emo").GetComponent<Text>().text = emo;
+
+                            string path = @"Assets\Emo_Saving\"; ;
+
+                            string datefile = DateTime.Now.ToString("yyyy_MM_dd");
+
+                            File.AppendAllText(path + datefile + "_emofile.txt", findemo + "\r\n");
+
+                            is_print = false;
                         }
                     }
 
@@ -797,5 +799,35 @@ public class ButtonScript : MonoBehaviour
         Debug.Log(st);
         GameObject.Find("EM_Text").GetComponent<Text>().text = em;
         GameObject.Find("EM_St").GetComponent<Text>().text = st;
+    }
+
+    public void Open_App()
+    {
+        neg = 0;
+        hap = 0;
+        neu = 0;
+        sur = 0;
+        findmax = 0;
+        findemo = "";
+        GameObject.Find("EM_Text").GetComponent<Text>().text = "";
+        GameObject.Find("EM_St").GetComponent<Text>().text = "";
+        webcam.Pause();
+        ca_app = true;
+        //gameObject.GetComponent<ButtonScript>().enabled = true;
+        Debug.Log("카메라가 켜집니다.");
+    }
+
+    public void Close_App()
+    {
+        webcam.Play();
+        ca_app = false;
+        Debug.Log("카메라가 꺼집니다.");
+    }
+
+    public void Take_Picture()
+    {
+        webcam.Play();
+        ca_button = true;
+        Debug.Log("사진을 촬영합니다.");
     }
 }
