@@ -483,7 +483,7 @@ public class ButtonScript : MonoBehaviour
 
                             if (is_waiting)
                             {
-                                Debug.Log("" + emo);
+                                //Debug.Log("" + emo);
 
                                 if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
                                 {
