@@ -50,6 +50,13 @@ public class MainManager : MonoBehaviour
 		ChangePage(4);
 	}
 
+	public void GoFAQ()
+	{
+		intro_canvas.SetActive(false);
+		// FAQ
+		ChangePage(0);
+	}
+
 	private void Start()
 	{
 
