@@ -277,10 +277,10 @@ namespace SimpleWebBrowser
 
         #region UI
 
-        public void OnNavigate()
+        public void OnNavigate(string url)
         {
             // MainUrlInput.isFocused
-            _mainEngine.SendNavigateEvent(mainUIPanel.UrlField.text, false, false);
+            _mainEngine.SendNavigateEvent(url, false, false);
 
         }
 
@@ -301,16 +301,20 @@ namespace SimpleWebBrowser
 
         public void OnPointerEnter(PointerEventData data)
         {
+            /*
             _focused = true;
             mainUIPanel.Show();
             StartCoroutine("TrackPointer");
+            */
         }
 
         public void OnPointerExit(PointerEventData data)
         {
+            /*
             _focused = false;
             mainUIPanel.Hide();
             StopCoroutine("TrackPointer");
+            */
         }
 
         //tracker
