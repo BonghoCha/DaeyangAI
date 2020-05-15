@@ -49,10 +49,10 @@ public class test : MonoBehaviour
 
         Search_Keyword = GameObject.Find("InputText").GetComponent<Text>().text;
         List<Dictionary<string, object>> data = CSVReader.Read("Contact");
-        Store_Key_Part = "부\n\n";
-        Store_Key_Part2 = "부서\n\n";
-        Store_Key_Location = "주소\n\n";
-        Store_Key_Phone = "연락처\n\n";
+        Store_Key_Part = "";
+        Store_Key_Part2 = "";
+        Store_Key_Location = "";
+        Store_Key_Phone = "";
         check = 0;
         string[] arr = new string[100000];
         for (var i = 0; i < data.Count; i++)
