@@ -153,7 +153,7 @@ public class GoogleApi : MonoBehaviour
         img.texture = www.texture;
         img.SetNativeSize();
 
-        img.GetComponent<RectTransform>().sizeDelta = new Vector2(1080, 1080);
+        img.GetComponent<RectTransform>().sizeDelta = new Vector2(700, 1000);
 
     }
     // Use this for initialization

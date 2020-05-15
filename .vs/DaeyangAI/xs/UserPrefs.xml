@@ -1,15 +1,25 @@
 ﻿<Properties StartupConfiguration="{3629935D-ED78-8050-E1E2-1CD699E7AD66}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlatformLoginSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02.Scripts/Google Maps/GoogleStaticMap.cs">
     <Files>
-      <File FileName="Assets/Crawling.cs" Line="151" Column="20" />
-      <File FileName="Assets/ButtonScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/EmotionDetectionAsset.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlatformLoginSystem.cs" Line="58" Column="24" />
+      <File FileName="Assets/Crawling.cs" Line="221" Column="2" />
+      <File FileName="Assets/ButtonScript.cs" />
+      <File FileName="Assets/EmotionDetectionAsset.cs" />
+      <File FileName="Assets/Resources/Contact.csv" Line="12" Column="37" />
+      <File FileName="Assets/02.Scripts/Google Maps/GoogleStaticMap.cs" Line="20" Column="39" />
+      <File FileName="Assets/02.Scripts/Google Maps/Editor/GoogleStaticMapEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleApi.cs" Line="156" Column="75" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DaeyangAI" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e7bcfe43-ee96-4b49-98f8-dec0d042ce4f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0e4ba23a-ae97-40f9-b496-64aae2cb6353" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
