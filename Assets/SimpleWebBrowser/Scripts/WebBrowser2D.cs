@@ -277,11 +277,27 @@ namespace SimpleWebBrowser
 
         #region UI
 
+        public void OnButtons()
+        {
+            if (this.gameObject.name == "Browser2D_FAQ")
+            {
+                var btns = this.gameObject.transform.GetChild(2);
+                for (var i = 0; i < btns.transform.childCount; i++)
+                {
+                    if (btns.GetChild(i).gameObject.active)
+                    {
+                        btns.GetChild(i).gameObject.SetActive(false);
+                        break;
+                    }
+                   
+                }
+            }
+        }
+
         public void OnNavigate(string url)
         {
             // MainUrlInput.isFocused
             _mainEngine.SendNavigateEvent(url, false, false);
-
         }
 
         public void GoBackForward(bool forward)
