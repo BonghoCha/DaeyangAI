@@ -49,6 +49,7 @@ public class ButtonScript : MonoBehaviour
         neu = 0;
         sur = 0;
         findmax = 0;
+        webcam.Pause();
     }
     //! http://answers.unity3d.com/questions/909967/getting-a-web-cam-to-play-on-ui-texture-image.html
 
@@ -483,7 +484,7 @@ public class ButtonScript : MonoBehaviour
 
                             if (is_waiting)
                             {
-                                //Debug.Log("" + emo);
+                                Debug.Log(emo);
 
                                 if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
                                 {
@@ -576,6 +577,7 @@ public class ButtonScript : MonoBehaviour
         else
         {
             msg.text = "No Face(s) detected";
+            Debug.Log("Face is not detected");
         }
     }
 
