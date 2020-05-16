@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Daeyang_Manager : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     RectTransform rectTransform;
     Vector3 Initial_pos;
+    public Sprite Initial_face;
     bool check;
 
     public void OnPointerDown(PointerEventData eventData)
     {
         check = true;
+        GameObject.Find("MainManager").GetComponent<MainManager>().SetRandomFace();
         Debug.Log("클릭");
-
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -50,6 +52,7 @@ public class Daeyang_Manager : MonoBehaviour, IPointerDownHandler, IBeginDragHan
     {
         //check = false;
         rectTransform.anchoredPosition = Initial_pos;
+        GetComponent<Image>().sprite = Initial_face;
         Debug.Log("끝");
     }
 }

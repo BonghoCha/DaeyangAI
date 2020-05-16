@@ -17,7 +17,21 @@ public class MainManager : MonoBehaviour
 	float a = 0.01f;
 	public GameObject intro2;
 
-	public void ChangePage(int current)
+    public Sprite[] m_expression_images;
+    public GameObject daeyang;  
+
+    public void SetRandomFace()
+    {
+        var random = Random.Range(0, 8);
+        daeyang.GetComponent<Image>().sprite = m_expression_images[random];
+    }
+
+    public void SetDaeyangFace(int num)
+    {
+        daeyang.GetComponent<Image>().sprite = m_expression_images[num];
+    }
+
+    public void ChangePage(int current)
 	{
 		for (var i = 0; i < m_navigation_icons.Length; i++)
 		{
@@ -30,34 +44,27 @@ public class MainManager : MonoBehaviour
 
     public void Intro1()
     {
-		play_introbutton = false;
+        play_introbutton = false;
 
-		intro1.transform.parent.gameObject.SetActive(false);
-		intro2.SetActive(true);
-	}
+        intro1.transform.parent.gameObject.SetActive(false);
+        intro2.SetActive(true);
+    }
 
-	public void GoMain()
+    public void GoMain()
     {
-		intro_canvas.SetActive(false);
-		// Main
-		ChangePage(2);
-	}
+        intro_canvas.SetActive(false);
+        // Main
+        ChangePage(2);
+    }
 
     public void GoCamera()
     {
-		intro_canvas.SetActive(false);
-		// Cameara
-		ChangePage(4);
-	}
+        intro_canvas.SetActive(false);
+        // Cameara
+        ChangePage(4);
+    }
 
-	public void GoFAQ()
-	{
-		intro_canvas.SetActive(false);
-		// FAQ
-		ChangePage(0);
-	}
-
-	private void Start()
+    private void Start()
 	{
 
 	}
@@ -76,7 +83,6 @@ public class MainManager : MonoBehaviour
             {
 				a *= -1;
             }
-            
         }
 	}
 }

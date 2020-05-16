@@ -33,7 +33,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject btns;
     public GameObject ca_intro;
     public GameObject picture;
-
+    public GameObject count;
 
     //string[] lines = new string[10];
     //int cnt = 0;
@@ -42,6 +42,7 @@ public class ButtonScript : MonoBehaviour
     {
         Debug.Log("시작");
         is_waiting = true;
+
         yield return new WaitForSeconds(3.0f);
         is_print = true;
         is_checked = false;
@@ -122,6 +123,8 @@ public class ButtonScript : MonoBehaviour
     /// </summary>
     void Start()
     {
+        emo_txt_read();
+
         em_t = GameObject.Find("EM_Text");
         em_s = GameObject.Find("EM_St");
         btns = GameObject.Find("Bottom_btns");
@@ -501,8 +504,6 @@ public class ButtonScript : MonoBehaviour
                         //if ((emos[emo] >= 0.86 && ca_app == false) || (emos[emo] >= 0.86 && ca_app == true && ca_button == true))
                         if ( (ca_app == false) || (ca_app == true && ca_button == true))
                         {
-
-                            
                             if (!is_waiting)
                             {
                                 StartCoroutine("CheckTime");
@@ -685,41 +686,24 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    /*
-
         public void emo_txt_read()
         {
-            string datefile = DateTime.Now.ToString("yyyy_MM_dd");
-            string path = @"C:\Users\gusqh\Desktop\DaeyangAI\DaeyangAI\"; + datefile + "_emofile.txt";
-            string[] textValue = System.IO.File.ReadAllLines(path);
+            string path = @"Assets\Emo_Saving\";
+
+            string datefile = DateTime.Now.ToString("yyyy_MM_dd") + "_emofile.txt";
+
+            //File.AppendAllText(path + datefile + "_emofile.txt", findemo + "\r\n");
+            string[] textValue = System.IO.File.ReadAllLines(path + datefile);
             if (textValue.Length > 0)
             {
                 for (int i = 0; i < textValue.Length; i++)
                 {
-                    if (textValue[i] == "Anger")
+                    if (textValue[i] == "Negative")
                     {
-                        ang++;
-                        if (findmax < ang)
+                        neg++;
+                        if (findmax < neg)
                         {
-                            findmax = ang;
-                            findemo = textValue[i];
-                        }
-                    }
-                    if (textValue[i] == "Disgust")
-                    {
-                        dis++;
-                        if (findmax < dis)
-                        {
-                            findmax = dis;
-                            findemo = textValue[i];
-                        }
-                    }
-                    if (textValue[i] == "Fear")
-                    {
-                        fea++;
-                        if (findmax < fea)
-                        {
-                            findmax = fea;
+                            findmax = neg;
                             findemo = textValue[i];
                         }
                     }
@@ -741,15 +725,6 @@ public class ButtonScript : MonoBehaviour
                             findemo = textValue[i];
                         }
                     }
-                    if (textValue[i] == "Sad")
-                    {
-                        sad++;
-                        if (findmax < sad)
-                        {
-                            findmax = sad;
-                            findemo = textValue[i];
-                        }
-                    }
                     if (textValue[i] == "Surprise")
                     {
                         sur++;
@@ -760,78 +735,107 @@ public class ButtonScript : MonoBehaviour
                         }
                     }
                 }
-                Debug.Log("" + findemo + " " + findmax);
+                Debug.Log(findemo + " " + findmax);
             }
         }
-        */
 
     public void EmoionStationery(string em)
     {
-        int ran = UnityEngine.Random.Range(0, 3);
+        int ran = UnityEngine.Random.Range(0, 4);
         string st = "";
         if (em == "Negative")
         {
             if (ran == 0)
             {
                 st = "제가..뭘 잘못했나요..?";
+                em_t.GetComponent<Text>().text = "힝..";
+
+                GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(5);
             }
-            if (ran == 1)
+            else if (ran == 1)
             {
                 st = "공부가 많이 힘들죠? \n좋은 일이 생길거에요!";
+                em_t.GetComponent<Text>().text = "힘내요!";
+
+                GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(7);
             }
-            if (ran == 2 || ran == 3)
+            else if (ran == 2)
             {
                 st = "저 이상한 인공지능 아니에요..ㅠㅠ";
+                em_t.GetComponent<Text>().text = "힝2...";
+
+                GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(3);
+            }
+            else
+            {
+                st = "혹시 저한테 화난거 있어요?ㅡㅡ";
+                em_t.GetComponent<Text>().text = "우씨!";
+
+                GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(4);
             }
         }
-        if (em == "Happy")
+        else if (em == "Happy")
         {
             if (ran == 0)
             {
                 st = "좋은 일 있으신 가봐요!";
+                em_t.GetComponent<Text>().text = "히히";
             }
             if (ran == 1)
             {
                 st = "행복한 기운이 저한테도\n전달되는거 같아요!";
+                em_t.GetComponent<Text>().text = "헤헤";
             }
             if (ran == 2 || ran == 3)
             {
                 st = "행복한 미소네요~ \n그 미소 잃지 말아요!";
+                em_t.GetComponent<Text>().text = "호호";
             }
+
+            GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(1);
         }
-        if (em == "Neutral")
+        else if (em == "Neutral")
         {
             if (ran == 0)
             {
                 st = "활짝 웃어볼까요?";
+                em_t.GetComponent<Text>().text = "흠..";
             }
             if (ran == 1)
             {
                 st = "표정에 영혼이 없네요..";
+                em_t.GetComponent<Text>().text = "에헴..";
             }
             if (ran == 2 || ran == 3)
             {
-                st = "난 아무 생각이 없다.\n왜냐면 아무 생각이 없기 때문이다.";
+                st = "난 아무 생각이 없다.\n왜냐하면 아무 생각이 없기 때문이다.";
+                em_t.GetComponent<Text>().text = "으흠..";
             }
+
+            GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(6);
         }
-        if (em == "Surprise")
+        else if (em == "Surprise")
         {
             if (ran == 0)
             {
                 st = "입을 크게 벌리면\n얼굴 운동이 된대요!";
+                em_t.GetComponent<Text>().text = "오!";
             }
             if (ran == 1)
             {
                 st = "왜 이렇게 놀라는 거에요!?\n제가 무섭나요..?";
+                em_t.GetComponent<Text>().text = "옹?";
             }
             if (ran == 2 || ran == 3)
             {
                 st = "제가 표정을 읽을 수 있다고\n입을 너무 벌리진 말아요...ㅋ";
+                em_t.GetComponent<Text>().text = "오옹?";
             }
+
+            GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(2);
         }
         Debug.Log(em);
         Debug.Log(st);
-        em_t.GetComponent<Text>().text = em;
         em_s.GetComponent<Text>().text = st;
     }
 
@@ -850,21 +854,26 @@ public class ButtonScript : MonoBehaviour
         findemo = "";
         em_t.GetComponent<Text>().text = "";
         em_s.GetComponent<Text>().text = "";
+
         //GameObject.Find("EM").SetActive(false);
         //webcam.Play();
         ca_app = true;
         //gameObject.GetComponent<ButtonScript>().enabled = true;
         Debug.Log("카메라가 켜집니다.");
+
+        em_t.SetActive(false);
+
     }
 
     public void Go_Picture()
     {
         webcam.Pause();
         picture.SetActive(true);
-
     }
     public void Out_Picture()
     {
+        GameObject.Find("MainManager").GetComponent<MainManager>().SetDaeyangFace(0);
+
         webcam.Play();
         //ca_intro.SetActive(true);
         //btns.SetActive(true);
@@ -877,10 +886,18 @@ public class ButtonScript : MonoBehaviour
         //webcam.Play();
         ca_app = false;
         Debug.Log("카메라가 꺼집니다.");
+
+        em_s.GetComponent<Text>().text = "";
+        em_t.SetActive(true);
     }
 
     public void Take_Picture()
     {
+        StopCoroutine("CheckTime");
+        StartCoroutine("CheckTime");
+
+        count.SetActive(true);  
+
         //webcam.Play();
         ca_button = true;
 
