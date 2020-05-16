@@ -28,6 +28,11 @@ public class ButtonScript : MonoBehaviour
 
     string findemo = "";
 
+    public GameObject em_t;
+    public GameObject em_s;
+    public GameObject btns;
+    public GameObject ca_intro;
+    public GameObject picture;
 
 
     //string[] lines = new string[10];
@@ -49,7 +54,22 @@ public class ButtonScript : MonoBehaviour
         neu = 0;
         sur = 0;
         findmax = 0;
-        webcam.Pause();
+
+        if (ca_app == true && em_s.GetComponent<Text>().text != "")
+        {
+            Go_Picture();
+        }
+
+        /*
+        if(em_s.GetComponent<Text>().text == "")
+        {
+            em_t.GetComponent<Text>().text = "Sad";
+            em_s.GetComponent<Text>().text = "얼굴이 제대로 인식되지 않아서 슬퍼요ㅜㅜ";
+        }
+
+        */
+
+        //webcam.Pause();
     }
     //! http://answers.unity3d.com/questions/909967/getting-a-web-cam-to-play-on-ui-texture-image.html
 
@@ -102,6 +122,14 @@ public class ButtonScript : MonoBehaviour
     /// </summary>
     void Start()
     {
+        em_t = GameObject.Find("EM_Text");
+        em_s = GameObject.Find("EM_St");
+        btns = GameObject.Find("Bottom_btns");
+        ca_intro = GameObject.Find("Cam_intro");
+        picture = GameObject.Find("Picture_btns");
+
+
+
         /*
         string date = DateTime.Now.ToString("yyyy_MM_dd_HH");
         Debug.Log(date);
@@ -470,63 +498,67 @@ public class ButtonScript : MonoBehaviour
                         emos[emo] = eda[0, emo];
 
 
-
-                        if ((emos[emo] >= 0.86 && ca_app == false) || (emos[emo] >= 0.86 && ca_app == true && ca_button == true))
+                        //if ((emos[emo] >= 0.86 && ca_app == false) || (emos[emo] >= 0.86 && ca_app == true && ca_button == true))
+                        if ( (ca_app == false) || (ca_app == true && ca_button == true))
                         {
 
-
+                            
                             if (!is_waiting)
                             {
                                 StartCoroutine("CheckTime");
                             }
 
-
-
-                            if (is_waiting)
+                            if (is_waiting )
                             {
-                                Debug.Log(emo);
+                                if (emos[emo] >= 0.86)
+                                {
 
-                                if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
-                                {
-                                    neg++;
-                                    if (findmax < neg)
-                                    {
-                                        findmax = neg;
-                                        findemo = "Negative";
-                                    }
-                                }
-                                if (emo == "Happy")
-                                {
-                                    hap++;
-                                    if (findmax < hap)
-                                    {
-                                        findmax = hap;
-                                        findemo = emo;
-                                    }
-                                }
-                                if (emo == "Neutral")
-                                {
-                                    neu++;
-                                    if (findmax < neu)
-                                    {
-                                        findmax = neu;
-                                        findemo = emo;
-                                    }
-                                }
+                                    Debug.Log(emo);
 
-                                if (emo == "Surprise")
-                                {
-                                    sur++;
-                                    if (findmax < sur)
+                                    if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
                                     {
-                                        findmax = sur;
-                                        findemo = emo;
+                                        neg++;
+                                        if (findmax < neg)
+                                        {
+                                            findmax = neg;
+                                            findemo = "Negative";
+                                        }
+                                    }
+                                    if (emo == "Happy")
+                                    {
+                                        hap++;
+                                        if (findmax < hap)
+                                        {
+                                            findmax = hap;
+                                            findemo = emo;
+                                        }
+                                    }
+                                    if (emo == "Neutral")
+                                    {
+                                        neu++;
+                                        if (findmax < neu)
+                                        {
+                                            findmax = neu;
+                                            findemo = emo;
+                                        }
+                                    }
+
+
+                                    if (emo == "Surprise")
+                                    {
+                                        sur++;
+                                        if (findmax < sur)
+                                        {
+                                            findmax = sur;
+                                            findemo = emo;
+                                        }
                                     }
                                 }
                                 is_start = false;
                             }
 
                         }
+
                         if (is_print)
                         {
                             EmoionStationery(findemo);
@@ -577,7 +609,7 @@ public class ButtonScript : MonoBehaviour
         else
         {
             msg.text = "No Face(s) detected";
-            Debug.Log("Face is not detected");
+            //Debug.Log("얼굴을 인식해주세요");
         }
     }
 
@@ -799,37 +831,74 @@ public class ButtonScript : MonoBehaviour
         }
         Debug.Log(em);
         Debug.Log(st);
-        GameObject.Find("EM_Text").GetComponent<Text>().text = em;
-        GameObject.Find("EM_St").GetComponent<Text>().text = st;
+        em_t.GetComponent<Text>().text = em;
+        em_s.GetComponent<Text>().text = st;
     }
 
     public void Open_App()
     {
+        ca_intro.SetActive(true);
+        btns.SetActive(true);
+        picture.SetActive(false);
+        //GameObject.Find("Cam_intro").SetActive(true);
+        //GameObject.Find("Bottom_btns").SetActive(true);
         neg = 0;
         hap = 0;
         neu = 0;
         sur = 0;
         findmax = 0;
         findemo = "";
-        GameObject.Find("EM_Text").GetComponent<Text>().text = "";
-        GameObject.Find("EM_St").GetComponent<Text>().text = "";
-        webcam.Pause();
+        em_t.GetComponent<Text>().text = "";
+        em_s.GetComponent<Text>().text = "";
+        //GameObject.Find("EM").SetActive(false);
+        //webcam.Play();
         ca_app = true;
         //gameObject.GetComponent<ButtonScript>().enabled = true;
         Debug.Log("카메라가 켜집니다.");
     }
 
-    public void Close_App()
+    public void Go_Picture()
+    {
+        webcam.Pause();
+        picture.SetActive(true);
+
+    }
+    public void Out_Picture()
     {
         webcam.Play();
+        //ca_intro.SetActive(true);
+        //btns.SetActive(true);
+        picture.SetActive(false);
+
+    }
+
+    public void Close_App()
+    {
+        //webcam.Play();
         ca_app = false;
         Debug.Log("카메라가 꺼집니다.");
     }
 
     public void Take_Picture()
     {
-        webcam.Play();
+        //webcam.Play();
         ca_button = true;
+
+        // 하단 버튼 비활성화
+        ca_intro.SetActive(false);
+        btns.SetActive(false);
+
+
+        //표정 활성화
+        //GameObject.Find("EM").SetActive(true);
+        //하단 문구 활성화
+        //var color = GameObject.Find("EM_St").GetComponent<Text>().color;
+        //color.a = 255;
+
         Debug.Log("사진을 촬영합니다.");
+        if (em_s.GetComponent<Text>().text == "")
+        {
+            em_s.GetComponent<Text>().text = "얼굴을 인식해주세요!";
+        }
     }
 }
