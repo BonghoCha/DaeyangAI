@@ -777,7 +777,7 @@ public class ButtonScript : MonoBehaviour
             }
             if (ran == 1)
             {
-                st = "공부가 많이 힘들죠? 좋은 일이 생길거에요!";
+                st = "공부가 많이 힘들죠? \n좋은 일이 생길거에요!";
             }
             if (ran == 2 || ran == 3)
             {
@@ -792,11 +792,11 @@ public class ButtonScript : MonoBehaviour
             }
             if (ran == 1)
             {
-                st = "^__________^";
+                st = "행복한 기운이 저한테도\n전달되는거 같아요!";
             }
             if (ran == 2 || ran == 3)
             {
-                st = "저도 기분이 좋네요!";
+                st = "행복한 미소네요~ \n그 미소 잃지 말아요!";
             }
         }
         if (em == "Neutral")
@@ -811,22 +811,22 @@ public class ButtonScript : MonoBehaviour
             }
             if (ran == 2 || ran == 3)
             {
-                st = "난 아무 생각이 없다. 왜냐면 아무 생각이 없기 때문이다.";
+                st = "난 아무 생각이 없다.\n왜냐면 아무 생각이 없기 때문이다.";
             }
         }
         if (em == "Surprise")
         {
             if (ran == 0)
             {
-                st = "입을 크게 벌리면 얼굴 운동이 된대요!";
+                st = "입을 크게 벌리면\n얼굴 운동이 된대요!";
             }
             if (ran == 1)
             {
-                st = "허걱";
+                st = "왜 이렇게 놀라는 거에요!?\n제가 무섭나요..?";
             }
             if (ran == 2 || ran == 3)
             {
-                st = "호고곡";
+                st = "제가 표정을 읽을 수 있다고\n입을 너무 벌리진 말아요...ㅋ";
             }
         }
         Debug.Log(em);
