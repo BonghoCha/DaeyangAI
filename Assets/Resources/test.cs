@@ -29,17 +29,15 @@ public class test : MonoBehaviour
             if (data[i]["부서"].ToString().Contains(Keyword) || data[i]["부"].ToString().Contains(Keyword) || data[i]["주소"].ToString().Contains(Keyword) || data[i]["번호"].ToString().Contains(Keyword))
             {
                 Store_Keyword += data[i]["부서"] + " " + data[i]["부"] + " " + data[i]["주소"] + " " + data[i]["번호"] + "\n";
-                Debug.Log(Store_Keyword);
             }
         }
         //GameObject.Find("test").GetComponent<Text>().text = Contact;
 
-        GameObject.Find("key").GetComponent<Text>().text = Store_Keyword;
+        //GameObject.Find("key").GetComponent<Text>().text = Store_Keyword;
     }
 
     public void onClick()
     {
-        Debug.Log("Click!");
         StopAllCoroutines();
         StartCoroutine(Search());
     }
@@ -60,8 +58,6 @@ public class test : MonoBehaviour
             if (data[i]["부서"].ToString().Contains(Search_Keyword) || data[i]["부"].ToString().Contains(Search_Keyword) || data[i]["주소"].ToString().Contains(Search_Keyword) || data[i]["번호"].ToString().Contains(Search_Keyword))
             {
                 arr[check] += data[i]["부서"];
-                Debug.Log(arr[0]);
-                Debug.Log(arr[1]);
                 if (check >= 1)
                 {
                     if (!arr[check].Equals(arr[check - 1]))
@@ -70,7 +66,6 @@ public class test : MonoBehaviour
                         Store_Key_Part2 += "\n" + data[i]["부"] + "\n";
                         Store_Key_Location += "\n" + data[i]["주소"] + "\n";
                         Store_Key_Phone += "\n" + data[i]["번호"] + "\n";
-                        Debug.Log("Open");
                     }
                     else
                     {
@@ -87,7 +82,6 @@ public class test : MonoBehaviour
                     Store_Key_Location += data[i]["주소"] + "\n";
                     Store_Key_Phone += data[i]["번호"] + "\n";
                 }
-                Debug.Log(Search_Keyword);
                 check++;
             }
         }

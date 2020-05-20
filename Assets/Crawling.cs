@@ -147,8 +147,7 @@ public class Crawling : MonoBehaviour
         string day = Date.Day + "";
         if (int.Parse(day) < 10) day = "0" + day;
 
-        day = "17";
-        return year + "." + month + "." + day;
+        return year  + "." + month + "." + day;
     }
 
     void Start()

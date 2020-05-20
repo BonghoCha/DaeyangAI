@@ -128,7 +128,6 @@ public class ButtonScript : MonoBehaviour
         em_t = GameObject.Find("EM_Text");
         em_s = GameObject.Find("EM_St");
         btns = GameObject.Find("Bottom_btns");
-        ca_intro = GameObject.Find("Cam_intro");
         picture = GameObject.Find("Picture_btns");
 
 
@@ -692,8 +691,11 @@ public class ButtonScript : MonoBehaviour
 
             string datefile = DateTime.Now.ToString("yyyy_MM_dd") + "_emofile.txt";
 
-            //File.AppendAllText(path + datefile + "_emofile.txt", findemo + "\r\n");
-            string[] textValue = System.IO.File.ReadAllLines(path + datefile);
+        if (!File.Exists(path + datefile))
+        {
+            File.AppendAllText(path + datefile, findemo + "\r\n");
+        }
+        string[] textValue = System.IO.File.ReadAllLines(path + datefile);
             if (textValue.Length > 0)
             {
                 for (int i = 0; i < textValue.Length; i++)
@@ -743,6 +745,7 @@ public class ButtonScript : MonoBehaviour
     {
         int ran = UnityEngine.Random.Range(0, 4);
         string st = "";
+
         if (em == "Negative")
         {
             if (ran == 0)
