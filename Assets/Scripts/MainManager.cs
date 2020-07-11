@@ -24,6 +24,11 @@ public class MainManager : MonoBehaviour
     public GameObject SOOJLE_in_img;
     public GameObject SOOJLE_in_text;
 
+    public GameObject notice_canvas;
+    public GameObject popup_canvas;
+    float timeSpan;
+    float checkTime;
+
     public void SetRandomFace()
     {
         var random = Random.Range(0, 8);
