@@ -115,6 +115,11 @@ public class GoogleApi : MonoBehaviour
             lat = 37.552545f;
             lon = 127.074157f;
         }
+        else if (number == 19)
+        {
+            lat = 37.5482332f;
+            lon = 127.0740246f;
+        }
         StartCoroutine(Map());
     }
     public void PlusZoom()
