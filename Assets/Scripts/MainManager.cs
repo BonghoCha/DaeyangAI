@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+
 public class MainManager : MonoBehaviour
 {
 	public GameObject[] m_pages;
@@ -85,10 +86,32 @@ public class MainManager : MonoBehaviour
         ChangePage(4);
     }
 
+    public void GoIntro()
+    {
+        for (var i = 0; i < m_navigation_icons.Length; i++)
+        {
+            m_navigation_icons[i].sprite = m_icon_off[i];
+            m_pages[i].SetActive(false);
+        }
+
+        GameObject.Find("Notice_Canvas").GetComponent<Canvas>().sortingOrder= -1;
+        GameObject.Find("FAQ_Popup_Canvas").GetComponent<Canvas>().sortingOrder = -1;
+
+
+        intro_canvas.SetActive(true);
+        play_introbutton = true;
+        intro1.transform.parent.gameObject.SetActive(true);
+        intro2.SetActive(false);
+
+    }
+
     private void Start()
 	{
+        timeSpan = 0.0f;
+        checkTime = 3.0f;  // 특정시간을 3초로 지정
 
-	}
+
+    }
 
     private void Update()
 	{
@@ -105,6 +128,16 @@ public class MainManager : MonoBehaviour
 				a *= -1;
             }
         }
-	}
+        timeSpan += Time.deltaTime; // 경과 시간 등록
+        Debug.Log(timeSpan);
+        if (Input.GetMouseButtonDown(0))
+        {
+            timeSpan = 0.0f;
+            Debug.Log("시간 초기화");
+        }
+        if (timeSpan >= checkTime)
+        {
+            GoIntro();
+        }
+    }
 }
-
