@@ -18,7 +18,10 @@ public class MainManager : MonoBehaviour
 	public GameObject intro2;
 
     public Sprite[] m_expression_images;
-    public GameObject daeyang;  
+    public GameObject daeyang;
+
+    public GameObject SOOJLE_in_img;
+    public GameObject SOOJLE_in_text;
 
     public void SetRandomFace()
     {
@@ -40,7 +43,25 @@ public class MainManager : MonoBehaviour
 		}
 		m_navigation_icons[current].sprite = m_icon_on[current];
 		m_pages[current].SetActive(true);
-	}
+
+
+        if (current == 3)   // At SOOJLE page, set false
+        {
+            SOOJLE_in_img.SetActive(false);
+            SOOJLE_in_text.SetActive(false);
+
+            GameObject.Find("SOOJLE").GetComponent<Canvas>().sortingOrder = 4;
+        }
+        else   // At Other pages, set true
+        {
+            SOOJLE_in_img.SetActive(true);
+            SOOJLE_in_text.SetActive(true);
+
+            GameObject.Find("SOOJLE").GetComponent<Canvas>().sortingOrder = -1;
+        }
+
+
+    }
 
     public void Intro1()
     {

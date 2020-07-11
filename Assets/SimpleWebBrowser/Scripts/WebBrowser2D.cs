@@ -6,10 +6,10 @@ using System.Text;
 using MessageLibrary;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using JetBrains.Annotations;
 
 namespace SimpleWebBrowser
 {
-
 
 
 
@@ -19,9 +19,9 @@ namespace SimpleWebBrowser
 
         #region General
 
-        [Header("General settings")] public int Width = 1024;
+        [Header("General settings")] public int Width = 1080;
 
-        public int Height = 768;
+        public int Height = 1720;
 
         public string MemoryFile = "MainSharedMem";
 
@@ -137,6 +137,15 @@ namespace SimpleWebBrowser
 
         void Awake()
         {
+          
+
+            if (gameObject.name == "Browser2D_SOOJLE")
+            {
+
+               // Height = 1720;
+
+            }
+
             _mainEngine = new BrowserEngine();
 
             if (RandomMemoryFile)
@@ -472,6 +481,9 @@ namespace SimpleWebBrowser
             // local pos is the mouse position.
             RectTransform trns = transform as RectTransform;
             localPos.y = trns.rect.height - localPos.y;
+
+            localPos.x = localPos.x + 540;          // 마우스 포인트 수정
+
             //Debug.Log("x:"+localPos.x+",y:"+localPos.y);
 
             //now recalculate to texture
