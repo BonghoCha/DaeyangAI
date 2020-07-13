@@ -113,7 +113,7 @@ public class MainManager : MonoBehaviour
     private void Start()
 	{
         timeSpan = 0.0f;
-        checkTime = 3.0f;  // 특정시간을 3초로 지정
+        checkTime = 180.0f;  // 특정시간을 180초로 지정
 
 
     }
@@ -134,7 +134,6 @@ public class MainManager : MonoBehaviour
             }
         }
         timeSpan += Time.deltaTime; // 경과 시간 등록
-        Debug.Log(timeSpan);
         if (Input.GetMouseButtonDown(0))
         {
             timeSpan = 0.0f;

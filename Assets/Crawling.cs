@@ -51,7 +51,7 @@ public class Crawling : MonoBehaviour
     {
         var handler = webRequest.downloadHandler;
         var htmlStr = handler.text;
-
+   
         // Initialize Start Index
         int start = htmlStr.IndexOf("tbody", 0);
         start = htmlStr.IndexOf(keyword, start);

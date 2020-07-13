@@ -24,6 +24,7 @@ public class GoogleApi : MonoBehaviour
 
     public void SetLocation(int number)
     {
+        Debug.Log(number);
         if(number == 1)
         {
             lat = 37.548824f; 
