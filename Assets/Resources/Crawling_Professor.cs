@@ -414,6 +414,19 @@ public class Crawling_Professor : MonoBehaviour
                     check2 = html.IndexOf("</dd", start);
                     len = check2 - check1 - 1;
                     var location_store = html.Substring(check1 + 1, len);
+                    if (location_store.Length > 3 && location_store[0] != '&')
+                    {
+                        if (location_store[0] == '광' && location_store[2] != '토')
+                        {
+                            var tmp = "광개토관";
+                            var tmp3 = location_store.Substring(2, location_store.Length - 2);
+                            location_store = tmp + ' ' + tmp3;
+                        }
+                        if (location_store[location_store.Length - 1] != '호')
+                        {
+                            location_store += '호';
+                        }
+                    }
                     proflist["location"].Add(location_store);
 
                     start = html.IndexOf("연구실전화", start);
