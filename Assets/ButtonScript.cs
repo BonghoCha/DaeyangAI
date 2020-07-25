@@ -123,6 +123,8 @@ public class ButtonScript : MonoBehaviour
     /// </summary>
     void Start()
     {
+        Debug.Log("체크1" + furia);
+        Debug.Log("체크2" + database);
         emo_txt_read();
 
         em_t = GameObject.Find("EM_Text");
@@ -193,7 +195,7 @@ public class ButtonScript : MonoBehaviour
         //10) Init the EmotionDetectionAsset. 
         //    Note this takes a couple of seconds as it need to read/parse the shape_predictor_68_face_landmarks database
         // 
-        eda.Initialize(@"Assets\", database);
+        eda.Initialize(@"", database);
 
         //11) Read the fuzzy logic rules and parse them.
         // 
@@ -512,8 +514,6 @@ public class ButtonScript : MonoBehaviour
                             {
                                 if (emos[emo] >= 0.86)
                                 {
-
-                                    Debug.Log(emo);
 
                                     if (emo == "Anger" || emo == "Fear" || emo == "Disgust" || emo == "Sad")
                                     {

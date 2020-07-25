@@ -1,0 +1,705 @@
+2016-09-02 18:03:10,302 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2016-09-02 18:03:10,437 [1] INFO  SharedPluginServer.Program [(null)] - ARGS:
+2017-02-27 17:15:56,645 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:15:56,743 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:48184c0b-8d2c-4074-bc0b-1011dae9f8a3,port:8315
+2017-02-27 17:16:05,327 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 17:16:07,998 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:16:08,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9bb0b443-e767-4514-a92c-de677ad8941e,port:8135
+2017-02-27 17:16:11,097 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:29,979 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:30,046 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:35,168 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-02-27 18:24:35,803 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:35,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:40,837 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:55,005 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:55,072 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e3e562f6-4ddb-424d-b290-4f2f7fb63fb8,port:8426
+2017-02-27 18:25:06,324 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 17:34:45,640 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 17:34:45,705 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ca86620f-26ac-4689-97c8-440477b1223d,port:8085
+2020-05-09 17:37:17,685 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:11:49,006 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:11:49,052 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:e4013711-bb11-4ca3-bd6e-082aefccc12c,port:8275
+2020-05-09 18:12:30,628 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:12:40,103 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:12:40,154 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:85921307-08e7-47c2-8f5b-2a62b8466272,port:8674
+2020-05-09 18:13:02,171 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:13:34,930 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:13:34,981 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a5aa80b6-78b9-4722-8ee0-03d9d1550694,port:8824
+2020-05-09 18:14:10,007 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:16:13,835 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:16:13,880 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:d2824353-5b47-4492-b313-f7ec7b4e5005,port:8687
+2020-05-09 18:18:02,343 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:20:10,898 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:20:10,944 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:58f8134a-5f6d-43c8-ba92-cac759da1f56,port:8117
+2020-05-09 18:20:29,451 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:20:35,236 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:20:35,285 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:952ec6cf-5956-425e-ad8d-740efd81b23d,port:8345
+2020-05-09 18:21:26,871 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:22:13,453 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:22:13,497 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:313e5498-0c2c-43a8-a664-2246e3884d16,port:8299
+2020-05-09 18:22:18,202 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-09 18:22:18,389 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:22:18,464 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:313e5498-0c2c-43a8-a664-2246e3884d16,port:8299
+2020-05-09 18:22:23,895 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:22:23,987 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-09 18:23:19,835 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:23:19,880 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:20e4b02b-c828-44bd-9643-5114e9cd9d6a,port:8118
+2020-05-09 18:24:20,184 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:28:25,357 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:28:25,401 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a2e4bb09-990a-4de3-9f6a-3321005045a2,port:8767
+2020-05-09 18:29:01,261 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:29:06,733 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:29:06,777 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9c6c5397-bbef-4c4d-8ae4-ca0ce314174b,port:8657
+2020-05-09 18:29:11,952 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-09 18:29:21,926 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-09 18:29:21,975 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:65e65494-d0b1-4041-9f2c-f7eefef1e130,port:8180
+2020-05-09 18:29:45,325 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-15 23:00:51,820 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-15 23:00:51,899 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:af852c28-8916-4e36-a9c0-526abd913749,port:8184
+2020-05-15 23:00:56,364 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-15 23:00:56,493 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-15 23:00:57,866 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-15 23:00:57,924 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:af852c28-8916-4e36-a9c0-526abd913749,port:8184
+2020-05-15 23:01:02,144 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-15 23:01:02,270 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-15 23:01:02,421 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-15 23:01:02,489 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 14:29:28,465 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:29:28,604 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dddda58a-ab2d-4f8b-aaf5-a5816cfa5a70,port:8053
+2020-05-16 14:29:33,461 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 14:29:34,542 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:29:34,601 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dddda58a-ab2d-4f8b-aaf5-a5816cfa5a70,port:8053
+2020-05-16 14:30:47,058 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:31:03,165 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:31:03,230 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:4adbd161-a5da-4b41-870d-ab70b43e95ad,port:8310
+2020-05-16 14:31:24,554 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:32:23,517 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:32:23,579 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:e7df19cb-6a4b-4a2a-8083-469c0b1b4cfb,port:8818
+2020-05-16 14:36:58,967 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:37:28,937 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:37:28,992 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:2afe1299-9f32-4c7c-b258-c383dbf7cc39,port:8512
+2020-05-16 14:37:34,624 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:37:57,810 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:37:57,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:78f4466d-9ab0-4532-9c5e-1fa6e0883c0c,port:8185
+2020-05-16 14:41:26,278 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:57:20,316 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:57:20,377 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:4d6098ab-82b2-4b1c-a344-15dbab329ae6,port:8201
+2020-05-16 14:57:30,530 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:57:46,307 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:57:46,362 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:87d80fb3-b0eb-4fa4-82d0-804ba53f44d5,port:8196
+2020-05-16 14:59:38,316 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 14:59:52,454 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 14:59:52,515 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9385e749-b536-484f-bb74-991eb8090f00,port:8362
+2020-05-16 15:02:51,729 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 15:08:20,196 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 15:08:20,265 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a1bc23ac-f1d0-48c0-ba15-ecf2fc76a5c3,port:8247
+2020-05-16 15:10:06,028 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:06:28,796 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:06:28,861 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:63217907-2c58-4ba1-b155-9665a0432552,port:8518
+2020-05-16 17:20:38,933 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:21:43,589 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:21:43,641 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:2db2da98-dfdf-4459-85e8-7531df7cbc6a,port:8023
+2020-05-16 17:22:09,444 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:24:42,493 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:24:42,557 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9ef758f4-4b14-46d7-81ee-a04efd852c1a,port:8136
+2020-05-16 17:27:32,767 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:36:35,983 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:36:36,041 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a9596816-c3d2-42c9-98ba-8b28f1c4ea04,port:8759
+2020-05-16 17:36:41,964 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 17:36:42,127 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:36:42,194 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a9596816-c3d2-42c9-98ba-8b28f1c4ea04,port:8759
+2020-05-16 17:36:57,929 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:39:44,287 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:39:44,352 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:442ccf91-e30d-42ae-9961-0176ec319004,port:8926
+2020-05-16 17:40:45,822 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:41:57,192 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:41:57,277 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c05a73e9-88c1-4ea6-a1ea-577f4499f2f7,port:8944
+2020-05-16 17:42:08,569 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:42:19,802 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:42:19,852 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a3ad522e-c67d-4684-935a-5f6107a9010c,port:8352
+2020-05-16 17:42:27,647 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:42:36,476 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:42:36,523 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:0ae9da07-e290-4962-b53b-01580898a240,port:8577
+2020-05-16 17:42:48,241 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 17:43:00,526 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 17:43:00,575 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c1ebc1f5-070c-463d-9425-b269ed65e79f,port:8953
+2020-05-16 17:44:01,347 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:15:04,021 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:15:04,077 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:bddecf44-b0ba-43c2-8ee8-02a2db335f53,port:8699
+2020-05-16 18:15:18,954 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:16:52,566 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:16:52,614 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5763114f-5ec9-4238-bf2f-d9141984ec85,port:8763
+2020-05-16 18:17:03,213 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:17:30,487 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:17:30,534 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:7329512a-a532-45a3-b726-10bf84fd1fa1,port:8952
+2020-05-16 18:17:47,687 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:18:30,825 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:18:30,872 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:730ac411-03b9-4cd8-9a6d-1b2e75d509af,port:8789
+2020-05-16 18:18:40,447 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:19:31,162 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:19:31,212 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:8a4704f7-5d33-4084-92c6-430bb3c09992,port:8645
+2020-05-16 18:19:44,350 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:20:48,881 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:20:48,929 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:4a3c1293-e8a5-4252-bdf0-5a313a1412ff,port:8682
+2020-05-16 18:21:07,549 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:21:59,468 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:21:59,515 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5fc11793-f329-4f8d-b81e-9e47db676ee1,port:8043
+2020-05-16 18:22:45,419 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:24:26,638 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:24:26,686 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:bfb0b3c6-b0f1-4654-ace9-df86e31bb6aa,port:8251
+2020-05-16 18:24:47,659 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:25:54,783 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:25:54,831 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:8baee1d0-0fc8-443b-b9b5-735902e870b8,port:8268
+2020-05-16 18:27:04,084 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:27:11,730 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:27:11,783 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:145d1e1e-8e9e-42e4-ad51-930976b1f835,port:8369
+2020-05-16 18:27:29,509 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:31:02,435 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:31:02,484 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9b93487b-f12d-42bf-9eff-df15fea0bf11,port:8894
+2020-05-16 18:31:24,246 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:31:41,217 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:31:41,264 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:352a9b1e-fa64-4224-9e20-c4230c0a1a86,port:8513
+2020-05-16 18:31:55,033 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:34:28,315 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:34:28,363 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:e47bca7c-d6a6-416d-9e7f-6780c2a5dcdf,port:8717
+2020-05-16 18:34:37,015 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:34:46,957 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:34:47,005 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:63efefba-3134-4ff2-b60c-3854500edd09,port:8885
+2020-05-16 18:34:57,122 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-05-16 18:34:57,123 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:34:58,039 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:34:58,131 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6a2a30a8-6c82-4402-867c-b7675810c354,port:8061
+2020-05-16 18:35:01,013 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 18:35:07,353 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:37:13,259 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:37:13,307 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:7c9b14c9-1c50-4126-874e-55ca992fb222,port:8502
+2020-05-16 18:37:42,896 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:38:17,139 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:38:17,190 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:34b2e9f3-e16f-4e2c-9c7b-3cbb1e10833c,port:8564
+2020-05-16 18:38:29,779 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:41:24,603 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:41:24,653 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:89a894b3-cd1f-4b57-af50-38755dc909ef,port:8673
+2020-05-16 18:42:06,041 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:42:31,754 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:42:31,804 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:f00ae604-3fc7-40cc-9d87-b7c023322cb0,port:8931
+2020-05-16 18:43:13,512 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:43:45,393 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:43:45,442 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9659f703-c370-4d13-ac93-90d32b6c57fe,port:8140
+2020-05-16 18:45:11,729 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:46:17,282 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:46:17,355 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:3b49e6ae-46c8-4944-8874-e1158399e609,port:8866
+2020-05-16 18:47:35,358 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:54:59,495 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:54:59,548 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:18f5c60e-2770-49ce-9fe5-ca57b0c7f60b,port:8273
+2020-05-16 18:55:22,907 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:55:28,389 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:55:28,435 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:e619001d-553c-439c-b794-4477e6fe8a96,port:8784
+2020-05-16 18:55:51,637 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:56:04,034 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:56:04,084 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ccfd76e1-c534-4d6d-8e4c-e554faf582df,port:8594
+2020-05-16 18:56:13,650 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:56:35,619 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:56:35,668 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5fb683b4-a463-4f8d-b635-6bba4ec49d23,port:8719
+2020-05-16 18:56:46,909 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:57:33,811 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:57:33,858 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:96823d6f-d6b6-41a0-8c60-e358b66674e7,port:8853
+2020-05-16 18:57:47,900 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:58:07,188 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:58:07,239 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ae13491a-e375-404b-9fb6-d732bc9b7a0d,port:8142
+2020-05-16 18:58:22,207 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 18:58:27,396 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:58:27,442 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:147d596c-2a20-4107-8a43-b51c739dc537,port:8857
+2020-05-16 18:58:31,899 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:58:31,994 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 18:58:33,770 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 18:58:33,884 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:58:33,948 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 18:58:37,890 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 18:58:38,093 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:58:38,156 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 18:58:39,937 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 18:58:39,966 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 18:59:58,228 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 18:59:58,275 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:59e55528-2ca9-4b64-a326-b29f87904e09,port:8629
+2020-05-16 19:00:15,276 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:00:46,083 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:00:46,136 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:04ac1630-0aea-488c-ab3e-acb5741eff38,port:8622
+2020-05-16 19:01:10,401 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:01:35,158 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:01:35,204 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:f3aaff63-4942-4596-b7dc-60c9e698d99e,port:8706
+2020-05-16 19:02:39,645 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:02:45,641 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:02:45,687 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dc8c93d8-b675-4460-bae4-b780f6dae318,port:8106
+2020-05-16 19:03:04,375 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:03:17,916 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:03:17,966 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9e1ad10b-a1cc-4c9d-9802-0ddf28adb57e,port:8348
+2020-05-16 19:03:51,023 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:04:03,282 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:04:03,331 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:8c418f85-1291-44d9-aae5-2f23721ce3e4,port:8324
+2020-05-16 19:04:38,176 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:05:02,700 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:05:02,746 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:38d3f46d-c37c-40c4-a480-33b5fd85ab27,port:8751
+2020-05-16 19:05:57,510 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:10:26,268 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:10:26,315 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:1b6c3309-7d02-473b-9983-757083eb5715,port:8810
+2020-05-16 19:14:05,086 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:15:00,399 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:15:00,450 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:33781d33-f017-4c25-8e46-58cf29b2a7a8,port:8654
+2020-05-16 19:16:19,100 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:16:24,519 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:16:24,567 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:d7f73757-07ea-4cf0-8ca2-2140b0f8a02c,port:8269
+2020-05-16 19:17:53,528 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:18:17,605 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:18:17,655 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b310ecb-93db-44c2-b377-43ce07c0e668,port:8234
+2020-05-16 19:19:10,207 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:19:29,852 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:19:29,901 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:33a1ab8e-4019-453d-8980-cf7af0c1047f,port:8284
+2020-05-16 19:20:15,277 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:20:26,448 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:20:26,497 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:fe71823b-430a-40d2-899b-a31ccdff2891,port:8851
+2020-05-16 19:20:39,996 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:20:45,021 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:20:45,074 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9a8ac2f9-43dc-4a6f-aa6d-7d6e4f4771f1,port:8344
+2020-05-16 19:20:55,214 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-05-16 19:20:55,215 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:21:24,402 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:21:31,406 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:21:31,453 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ee58c844-069a-44a1-b1a8-1192340dbecc,port:8549
+2020-05-16 19:21:54,340 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:22:40,127 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:22:40,176 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:62bbde8a-b040-47d8-816e-964d3898c189,port:8928
+2020-05-16 19:23:43,736 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:24:36,614 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:24:36,664 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:f9ba83fe-12cc-42b0-8abb-d8a2ebae1a56,port:8299
+2020-05-16 19:25:36,920 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:26:08,524 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:26:08,573 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:d5a5bbee-2ae9-4adc-90e4-37c69fbd65d1,port:8422
+2020-05-16 19:27:42,865 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:28:00,219 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:28:00,268 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:743e97e4-3ae9-41b0-ac95-6f781bf7263b,port:8762
+2020-05-16 19:28:10,409 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-05-16 19:28:10,409 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:28:16,492 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:28:20,535 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:28:20,583 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:881db10c-3cac-4010-b6d9-6c2fa011e526,port:8134
+2020-05-16 19:28:26,579 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:36:24,283 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:36:24,331 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:07819966-ad25-479a-9c6f-34c0173e480c,port:8480
+2020-05-16 19:36:54,530 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:37:23,699 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:37:23,746 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:b940cde9-742a-4490-ac0a-11bdbca27737,port:8906
+2020-05-16 19:39:44,119 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:41:18,637 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:41:18,687 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:77a12150-e176-4e0f-9414-f64a92fd73c7,port:8896
+2020-05-16 19:43:02,273 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:43:08,994 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:43:09,043 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:88a077c4-2dd6-4ef0-b54b-a645faf07e01,port:8125
+2020-05-16 19:43:41,201 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:43:55,369 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:43:55,418 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:1f1fe617-7d8c-43c4-8aff-a74530c7e427,port:8634
+2020-05-16 19:45:13,704 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:48:10,934 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:48:10,982 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:cac3b849-8e75-4e80-a971-25e21f7af3d2,port:8128
+2020-05-16 19:48:14,950 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 19:48:15,048 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:48:15,097 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:cac3b849-8e75-4e80-a971-25e21f7af3d2,port:8128
+2020-05-16 19:48:58,888 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:49:43,612 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:49:43,660 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:3527a170-27f6-4f0a-bf0f-61334b776967,port:8187
+2020-05-16 19:50:13,592 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:57:39,304 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:57:39,354 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:7548d566-4de0-4e48-954f-d6868f76d66b,port:8427
+2020-05-16 19:58:04,761 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:58:16,263 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:58:16,313 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:30b5ecdc-5adc-408e-86e2-04adc22ad36d,port:8044
+2020-05-16 19:59:19,573 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 19:59:26,334 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 19:59:26,386 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:9cb50185-f546-4bb3-abad-7d1f7576f813,port:8514
+2020-05-16 20:01:19,369 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:01:30,457 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:01:30,507 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:093b8986-47ee-4df2-8cf3-efa856f646f4,port:8756
+2020-05-16 20:03:13,190 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:03:20,440 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:03:20,489 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:36b86600-3ada-4ece-934b-296581ad3952,port:8446
+2020-05-16 20:04:15,893 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:05:44,449 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:05:44,499 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:3262b563-3713-4ecc-a1cd-aa91489cd2ab,port:8987
+2020-05-16 20:05:48,919 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:05:49,014 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-05-16 20:05:51,098 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-05-16 20:05:51,137 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:05:51,206 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a47b7f9b-bdfc-4071-9ba8-52cc2612fcb1,port:8183
+2020-05-16 20:08:23,818 [13] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:08:34,423 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:08:34,469 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:4af1d3ef-58a9-4294-baf2-688d6d7ac155,port:8421
+2020-05-16 20:09:09,112 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:14:02,315 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:14:02,363 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:d9cc5711-3dc3-4414-b317-c755141171f4,port:8601
+2020-05-16 20:17:08,391 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:17:41,728 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:17:41,779 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5bcc6c9a-2375-4bf4-8a5c-442f5b5c3397,port:8698
+2020-05-16 20:18:39,257 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:19:06,137 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:19:06,185 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:2bf76f82-8bc3-406b-a41c-d40d67b17082,port:8891
+2020-05-16 20:21:24,008 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:23:20,585 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:23:20,637 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:cb756881-6583-4ccc-b018-6ea1ae3cf7c5,port:8337
+2020-05-16 20:23:55,810 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:24:29,641 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:24:29,688 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:b18d8d50-90d0-4c35-aa12-82680e34ef1f,port:8970
+2020-05-16 20:26:08,373 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:26:47,349 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:26:47,399 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:0f18e0b8-38d7-4683-978c-df902e96dca0,port:8467
+2020-05-16 20:29:18,342 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:29:28,899 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:29:28,948 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:fbf5f4e6-60ac-4309-aed9-9074c0a63a1e,port:8379
+2020-05-16 20:30:10,027 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-05-16 20:30:31,012 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-05-16 20:30:31,070 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a0f00063-ed0d-4c6a-ae9a-d5de5226106c,port:8419
+2020-05-16 20:31:05,325 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:08:50,169 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:08:50,234 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:de034e48-54ee-4f2a-bab4-e2c584a51b3d,port:8684
+2020-07-25 18:09:00,374 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:09:00,374 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:09:00,656 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:09:00,733 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:09:04,945 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:09:06,063 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:09:06,136 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:792d0d50-2c5f-4116-8607-6c8c32b5a1f5,port:8013
+2020-07-25 18:10:42,110 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:12:33,855 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:12:33,922 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:5c48a012-563f-42ce-8812-f2f2a1583145,port:8333
+2020-07-25 18:12:44,113 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:12:44,114 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:12:44,483 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:12:44,591 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:55d93563-d678-4b56-b97b-3f46bc309c55,port:8717
+2020-07-25 18:12:49,977 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:12:50,205 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:12:51,058 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:12:51,140 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:55d93563-d678-4b56-b97b-3f46bc309c55,port:8717
+2020-07-25 18:13:52,081 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:14:02,901 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:14:02,968 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:72210675-cf58-45d3-a893-e7ce62e6afa6,port:8083
+2020-07-25 18:14:14,409 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:14:14,412 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:14:14,583 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:15,040 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:16,011 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:14:16,079 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:72210675-cf58-45d3-a893-e7ce62e6afa6,port:8083
+2020-07-25 18:14:29,168 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:14:29,169 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:14:29,252 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:29,705 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:14:29,786 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:14:40,954 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:41,473 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:42,283 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:14:42,371 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:72210675-cf58-45d3-a893-e7ce62e6afa6,port:8083
+2020-07-25 18:14:52,540 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:14:52,540 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:14:52,914 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:14:53,106 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:14:53,172 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:7ca11c94-49bb-441c-a485-01fb55177c78,port:8577
+2020-07-25 18:15:13,969 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:16:43,371 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:16:43,437 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b9d38fdd-cb98-4b93-a22e-514df96fa5fd,port:8806
+2020-07-25 18:16:54,684 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:16:54,684 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:16:54,831 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:16:54,963 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:16:57,239 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:16:58,515 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:16:58,601 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b9d38fdd-cb98-4b93-a22e-514df96fa5fd,port:8806
+2020-07-25 18:17:05,115 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:17:05,236 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b9d38fdd-cb98-4b93-a22e-514df96fa5fd,port:8806
+2020-07-25 18:17:08,951 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:17:09,774 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:17:09,851 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b9d38fdd-cb98-4b93-a22e-514df96fa5fd,port:8806
+2020-07-25 18:17:20,060 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:17:20,061 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:17:20,202 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:17:20,495 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:17:20,593 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:58624f9a-a664-43ce-ac6e-af60da6028c2,port:8141
+2020-07-25 18:17:25,874 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:17:27,217 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:17:27,302 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:58624f9a-a664-43ce-ac6e-af60da6028c2,port:8141
+2020-07-25 18:19:02,912 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:19:11,448 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:19:11,510 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:3b3dc467-4cc8-4335-98b4-5236510412c4,port:8586
+2020-07-25 18:19:23,931 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:19:30,699 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:19:30,766 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:e5103e59-b8ee-411a-a659-99095c0d6a4f,port:8749
+2020-07-25 18:19:51,906 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:19:52,980 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:19:53,053 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:5953a346-baa9-4754-b255-be0f3858fd48,port:8006
+2020-07-25 18:20:04,515 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:20:04,517 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:20:05,009 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:20:05,548 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:20:05,785 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:20:05,890 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:5953a346-baa9-4754-b255-be0f3858fd48,port:8006
+2020-07-25 18:20:17,998 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:20:18,000 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:20:18,065 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:20:18,565 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:20:18,901 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:20:18,981 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:5953a346-baa9-4754-b255-be0f3858fd48,port:8006
+2020-07-25 18:20:29,136 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:20:29,137 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:20:29,858 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:20:30,021 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:20:30,124 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c673443e-90a4-4f33-9725-9d87b6763782,port:8243
+2020-07-25 18:21:12,149 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:21:18,744 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:18,808 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b51972ec-916f-4cf0-b506-9d04cfa63934,port:8780
+2020-07-25 18:21:28,970 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:21:28,971 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:21:29,077 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:29,223 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b379662-8bed-4f0a-8e72-c0e71aea2efc,port:8165
+2020-07-25 18:21:34,840 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:21:35,837 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:35,917 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b379662-8bed-4f0a-8e72-c0e71aea2efc,port:8165
+2020-07-25 18:21:42,301 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:21:42,476 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:21:43,088 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:43,173 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b379662-8bed-4f0a-8e72-c0e71aea2efc,port:8165
+2020-07-25 18:21:48,395 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:21:49,276 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:49,338 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b379662-8bed-4f0a-8e72-c0e71aea2efc,port:8165
+2020-07-25 18:21:54,407 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:21:55,381 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:21:55,442 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:6b379662-8bed-4f0a-8e72-c0e71aea2efc,port:8165
+2020-07-25 18:22:15,414 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:22:21,790 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:22:21,855 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:164eba76-0793-47b5-b4d6-cf868286e662,port:8230
+2020-07-25 18:22:32,025 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:22:32,025 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:22:32,186 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:22:32,329 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:22:36,977 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:22:38,278 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:22:38,359 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ffabe243-4317-48c8-870c-554535d70b20,port:8386
+2020-07-25 18:22:43,604 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:22:44,360 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:22:44,426 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ffabe243-4317-48c8-870c-554535d70b20,port:8386
+2020-07-25 18:22:54,592 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:22:54,592 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:23:20,489 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:23:28,620 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:23:28,681 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:90c9cfc6-f5a1-47b4-869d-1c68afebe161,port:8626
+2020-07-25 18:23:51,164 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:23:52,111 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:23:52,194 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:d2dcc27c-e8ee-4133-a6a1-6452606825c7,port:8117
+2020-07-25 18:24:14,954 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:30:05,517 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:05,583 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:342972d0-4016-4386-bc27-ebb31af155ac,port:8411
+2020-07-25 18:30:16,515 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:30:16,517 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:30:16,800 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:16,946 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:17,064 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:17,166 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:30:28,443 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:28,543 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:28,672 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:30:30,881 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:30,942 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:31,052 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:06f7cab6-1fe7-4cb5-96ac-c57cc6d6365d,port:8554
+2020-07-25 18:30:39,176 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:39,596 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:30:39,767 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:39,875 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:06f7cab6-1fe7-4cb5-96ac-c57cc6d6365d,port:8554
+2020-07-25 18:30:50,174 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:30:50,175 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:30:51,155 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:30:51,220 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c83c61ba-520e-4948-b181-6cc845f6db08,port:8520
+2020-07-25 18:30:54,072 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:34:49,607 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:34:57,758 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:34:57,829 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:b2ef8979-d300-431c-a99c-6dde62d30cb2,port:8741
+2020-07-25 18:35:35,484 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:39:25,661 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:25,723 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:c16366e0-cedd-451c-965f-f89c6d50b03b,port:8481
+2020-07-25 18:39:35,871 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:39:35,871 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:39:36,033 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:36,934 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:37,035 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:37,138 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:39:40,045 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:41,124 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:41,200 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:39:44,032 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:45,172 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:45,236 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:39:50,148 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:50,347 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:51,298 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:51,374 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:39:56,259 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:39:57,388 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:39:57,450 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:40:02,773 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:40:03,478 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:40:03,547 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:40:08,606 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:40:09,630 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:40:09,758 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dd00f092-dfbb-4346-b425-77508e96a5dd,port:8637
+2020-07-25 18:40:20,016 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:40:20,016 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:42:46,943 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:48:50,308 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:48:50,400 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:43dbd85f-b2d6-4e8c-bc69-93c14620aae1,port:8120
+2020-07-25 18:49:00,790 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:49:00,790 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:49:01,589 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:49:01,620 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:49:02,166 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:49:02,184 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:50:56,498 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:50:56,553 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:b2d79365-d019-46af-985a-cceacfae86e1,port:8124
+2020-07-25 18:54:17,670 [13] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:55:06,871 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:55:06,928 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:376eae7f-bd76-4028-ab6f-a52fbf7fd5b0,port:8046
+2020-07-25 18:55:36,006 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:55:43,470 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:55:43,533 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:3a6ddc71-f72e-496e-bf40-418f853f4efe,port:8267
+2020-07-25 18:56:17,389 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:56:40,882 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:56:40,945 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:97b9d2db-8a1e-4536-8c5c-e130637fc5e8,port:8770
+2020-07-25 18:56:51,079 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:56:51,079 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:56:51,720 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:56:51,936 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 18:56:51,976 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 18:56:52,032 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 18:56:52,535 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 18:56:52,610 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 18:58:26,168 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:00:11,407 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:00:11,493 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:3042fd4b-a529-4126-976f-0c79af915b6b,port:8007
+2020-07-25 19:00:21,860 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:04:05,705 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:04:05,758 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c9521d11-c67f-496a-a0b7-539e11a98e1b,port:8983
+2020-07-25 19:04:34,677 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:04:44,554 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:04:44,610 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:96d9361a-e4ce-43bc-8e0b-1c841e1cf328,port:8278
+2020-07-25 19:05:51,833 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:06:32,326 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:32,404 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:448cfac2-ed9b-48fc-b8cd-1988279d86b2,port:8054
+2020-07-25 19:06:42,590 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:06:42,590 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:06:43,294 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:43,374 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:9974f176-26b2-4cad-81e7-333880aed616,port:8725
+2020-07-25 19:06:46,196 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:06:47,344 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:47,426 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:9974f176-26b2-4cad-81e7-333880aed616,port:8725
+2020-07-25 19:06:51,827 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:52,043 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:9974f176-26b2-4cad-81e7-333880aed616,port:8725
+2020-07-25 19:06:55,866 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:06:56,060 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:06:56,115 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:06:56,211 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:06:56,396 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:56,493 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:06:58,774 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:06:58,865 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:06:58,959 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:07:08,826 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:07:08,886 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:2606efd2-581d-4435-890e-15a91b1400fa,port:8275
+2020-07-25 19:08:22,592 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:09:06,764 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:09:06,819 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:ebd1ad50-9895-4446-9215-fb74950a6a52,port:8394
+2020-07-25 19:09:47,970 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:10:25,001 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:10:25,059 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:2d59cee6-58e1-46af-9d52-175a7c814238,port:8341
+2020-07-25 19:10:35,196 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:10:35,196 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:10:35,684 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:10:35,938 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:10:36,359 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:10:36,433 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:273e6cc5-fb60-4e09-b218-7523048c0e27,port:8316
+2020-07-25 19:11:41,632 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:13:10,473 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:13:10,559 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:99137c1e-822b-4909-9abc-2fde76e16f77,port:8179
+2020-07-25 19:13:20,768 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:13:20,768 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:13:21,294 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:13:21,384 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:13:25,599 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:13:26,740 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:13:26,805 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:8cf500be-ca10-4134-904e-2a15185361f5,port:8667
+2020-07-25 19:14:07,687 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:14:37,866 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:14:37,923 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:f8e8ca6a-eb0a-4d9d-8945-fc7d890ecc7e,port:8668
+2020-07-25 19:15:44,832 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:19:20,629 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:19:20,690 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:a419ec0c-9fdc-4c60-be82-dd6b76914a63,port:8488
+2020-07-25 19:20:29,770 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:20:47,246 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:20:47,306 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:76d286b5-1920-496b-8877-dd69a7cb82a8,port:8080
+2020-07-25 19:20:52,115 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:20:52,215 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:20:53,340 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:20:53,410 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:76d286b5-1920-496b-8877-dd69a7cb82a8,port:8080
+2020-07-25 19:21:58,334 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:23:00,982 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:23:01,046 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c05869cc-34ee-4564-bcd0-1b33d8d25352,port:8995
+2020-07-25 19:24:45,251 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:24:54,907 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:24:54,973 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:c91fd7a1-4ec7-4522-a30b-280eafa10fac,port:8429
+2020-07-25 19:25:05,125 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:25:05,126 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:25:05,555 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:25:05,728 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5ddca94c-541a-410f-a036-de0c3d491ddc,port:8917
+2020-07-25 19:25:59,099 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:26:33,304 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:26:33,397 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:5b9bb184-57a7-4cb2-92a9-4dc9df09ba9c,port:8293
+2020-07-25 19:26:43,649 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:26:43,649 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:26:44,368 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:26:44,498 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:27:31,286 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:27:31,349 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:b8d04456-8160-4878-9514-8d2d85cb33ce,port:8893
+2020-07-25 19:27:41,493 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:27:41,493 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:27:41,790 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:42,133 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:27:42,157 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:27:42,969 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:43,202 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:27:43,290 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dc4c3800-c2df-48d1-9b6d-86d80a052f8d,port:8063
+2020-07-25 19:27:46,284 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:47,116 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:27:47,189 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dc4c3800-c2df-48d1-9b6d-86d80a052f8d,port:8063
+2020-07-25 19:27:52,045 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:52,199 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:53,239 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:27:53,305 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dc4c3800-c2df-48d1-9b6d-86d80a052f8d,port:8063
+2020-07-25 19:27:58,051 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:58,179 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:27:59,326 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:27:59,425 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:dc4c3800-c2df-48d1-9b6d-86d80a052f8d,port:8063
+2020-07-25 19:28:21,676 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:28:29,932 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:28:29,993 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:088fa39d-f29c-4e0c-bbbf-50c925e9848a,port:8404
+2020-07-25 19:28:34,600 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:28:34,737 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:28:36,770 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2020-07-25 19:28:37,111 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:28:37,179 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2020-07-25 19:28:52,010 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:29:00,586 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:29:00,655 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:4266fcc6-4b65-45f6-9e0f-2f7c1b4e761e,port:8956
+2020-07-25 19:29:10,806 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:29:10,807 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:30:41,155 [12] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:31:03,851 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:31:03,914 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:1e6b85e5-e03b-4fea-9138-41057ed86c67,port:8587
+2020-07-25 19:31:14,056 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-07-25 19:31:14,056 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:31:41,619 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-07-25 19:32:53,238 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-07-25 19:32:53,299 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:cf4ed1b8-8127-463b-b8e9-babb4f339b13,port:8710
+2020-07-25 19:33:26,969 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========

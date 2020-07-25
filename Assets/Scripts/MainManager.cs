@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -42,31 +43,32 @@ public class MainManager : MonoBehaviour
 
     public void ChangePage(int current)
 	{
-		for (var i = 0; i < m_navigation_icons.Length; i++)
-		{
-			m_navigation_icons[i].sprite = m_icon_off[i];
-			m_pages[i].SetActive(false);
-		}
-		m_navigation_icons[current].sprite = m_icon_on[current];
-		m_pages[current].SetActive(true);
-
+        for (var i = 0; i < m_navigation_icons.Length; i++)
+        {
+            m_navigation_icons[i].sprite = m_icon_off[i];
+            if (i != 3)
+            {
+                m_pages[i].SetActive(false);
+            }
+        }
+        m_navigation_icons[current].sprite = m_icon_on[current];
 
         if (current == 3)   // At SOOJLE page, set false
         {
             SOOJLE_in_img.SetActive(false);
             SOOJLE_in_text.SetActive(false);
 
-            GameObject.Find("SOOJLE").GetComponent<Canvas>().sortingOrder = 4;
+            m_pages[3].GetComponent<Canvas>().sortingOrder = 4;
         }
         else   // At Other pages, set true
         {
+            m_pages[current].SetActive(true);
+
             SOOJLE_in_img.SetActive(true);
             SOOJLE_in_text.SetActive(true);
 
-            GameObject.Find("SOOJLE").GetComponent<Canvas>().sortingOrder = -1;
+            m_pages[3].GetComponent<Canvas>().sortingOrder = -1;
         }
-
-
     }
 
     public void Intro1()
@@ -101,7 +103,7 @@ public class MainManager : MonoBehaviour
 
         GameObject.Find("Notice_Canvas").GetComponent<Canvas>().sortingOrder= -1;
         GameObject.Find("FAQ_Popup_Canvas").GetComponent<Canvas>().sortingOrder = -1;
-
+        GameObject.Find("Soojle_Canvas").GetComponent<Canvas>().sortingOrder = -1;
 
         intro_canvas.SetActive(true);
         play_introbutton = true;
@@ -137,7 +139,6 @@ public class MainManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             timeSpan = 0.0f;
-            Debug.Log("시간 초기화");
         }
         if (timeSpan >= checkTime)
         {

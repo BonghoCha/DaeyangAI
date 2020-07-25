@@ -31,19 +31,19 @@ namespace SimpleWebBrowser
                 MainCanvas = gameObject.GetComponent<Canvas>();
 
             if (UrlField == null)
-                UrlField = gameObject.transform.FindChild("UrlField").GetComponent<InputField>();
+                UrlField = gameObject.transform.Find("UrlField").GetComponent<InputField>();
             if (Background == null)
             {
                 //2d
                 Background = gameObject.GetComponent<Image>();
                 //3d
                 if (Background == null)
-                    Background = gameObject.transform.FindChild("Background").gameObject.GetComponent<Image>();
+                    Background = gameObject.transform.Find("Background").gameObject.GetComponent<Image>();
             }
             if (Back == null)
-                Back = gameObject.transform.FindChild("Back").gameObject.GetComponent<Button>();
+                Back = gameObject.transform.Find("Back").gameObject.GetComponent<Button>();
             if (Forward == null)
-                Forward = gameObject.transform.FindChild("Forward").gameObject.GetComponent<Button>();
+                Forward = gameObject.transform.Find("Forward").gameObject.GetComponent<Button>();
         }
 
 

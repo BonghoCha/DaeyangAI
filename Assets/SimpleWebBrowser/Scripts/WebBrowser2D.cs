@@ -118,19 +118,19 @@ namespace SimpleWebBrowser
             if (Browser2D == null)
                 Browser2D = gameObject.GetComponent<RawImage>();
             if (mainUIPanel == null)
-                mainUIPanel = gameObject.transform.FindChild("MainUI").gameObject.GetComponent<BrowserUI>();
+                mainUIPanel = gameObject.transform.Find("MainUI").gameObject.GetComponent<BrowserUI>();
             if (DialogPanel == null)
-                DialogPanel = gameObject.transform.FindChild("MessageBox").gameObject;
+                DialogPanel = gameObject.transform.Find("MessageBox").gameObject;
             if (DialogText == null)
-                DialogText = DialogPanel.transform.FindChild("MessageText").gameObject.GetComponent<Text>();
+                DialogText = DialogPanel.transform.Find("MessageText").gameObject.GetComponent<Text>();
             if (OkButton == null)
-                OkButton = DialogPanel.transform.FindChild("OK").gameObject.GetComponent<Button>();
+                OkButton = DialogPanel.transform.Find("OK").gameObject.GetComponent<Button>();
             if (YesButton == null)
-                YesButton = DialogPanel.transform.FindChild("Yes").gameObject.GetComponent<Button>();
+                YesButton = DialogPanel.transform.Find("Yes").gameObject.GetComponent<Button>();
             if (NoButton == null)
-                NoButton = DialogPanel.transform.FindChild("No").gameObject.GetComponent<Button>();
+                NoButton = DialogPanel.transform.Find("No").gameObject.GetComponent<Button>();
             if (DialogPrompt == null)
-                DialogPrompt = DialogPanel.transform.FindChild("Prompt").gameObject.GetComponent<InputField>();
+                DialogPrompt = DialogPanel.transform.Find("Prompt").gameObject.GetComponent<InputField>();
 
         }
 
@@ -482,7 +482,10 @@ namespace SimpleWebBrowser
             RectTransform trns = transform as RectTransform;
             localPos.y = trns.rect.height - localPos.y;
 
-            localPos.x = localPos.x + 540;          // 마우스 포인트 수정
+            if (this.gameObject.name == "Browser2D_SOOJLE")
+            {
+                localPos.x = localPos.x + 540;          // 마우스 포인트 수정
+            }
 
             //Debug.Log("x:"+localPos.x+",y:"+localPos.y);
 
