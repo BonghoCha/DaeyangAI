@@ -38,6 +38,13 @@ public class ButtonScript : MonoBehaviour
     //string[] lines = new string[10];
     //int cnt = 0;
 
+    //emotion 이벤트 처리를 위한 선언
+    string resetTime = DateTime.Now.ToString("hh");
+
+    int[] emoCount = new int[] {0,0,0,0,0};
+
+ 
+
     public IEnumerator CheckTime()
     {
         Debug.Log("시작");
@@ -195,7 +202,7 @@ public class ButtonScript : MonoBehaviour
         //10) Init the EmotionDetectionAsset. 
         //    Note this takes a couple of seconds as it need to read/parse the shape_predictor_68_face_landmarks database
         // 
-        eda.Initialize(@"", database);
+        eda.Initialize(@"Assets", database);
 
         //11) Read the fuzzy logic rules and parse them.
         // 
@@ -920,5 +927,10 @@ public class ButtonScript : MonoBehaviour
         {
             em_s.GetComponent<Text>().text = "얼굴을 인식해주세요!";
         }
+    }
+    public void EmoEvent()
+    {
+       
+
     }
 }

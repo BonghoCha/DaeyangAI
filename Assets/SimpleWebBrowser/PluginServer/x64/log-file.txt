@@ -571,3 +571,9 @@
 2020-07-25 19:40:29,095 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
 2020-07-25 19:40:29,153 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:ac8ed06e-2a9e-4053-abc2-f38416ab61f1,port:8734
 2020-07-25 19:41:04,914 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-08-08 17:56:19,908 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-08-08 17:56:20,311 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333,memfile:fdc888fe-5c37-4fb3-b9f7-af756ba64f7a,port:8179
+2020-08-08 17:57:12,069 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-08-22 16:53:55,017 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-08-22 16:53:55,077 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1080,height:1720,url:http://soojle.sejong.ac.kr/kiosk/ai,memfile:e4023cb2-ac73-4e84-9e9c-71afb2b4a175,port:8185
+2020-08-22 16:57:13,511 [13] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
