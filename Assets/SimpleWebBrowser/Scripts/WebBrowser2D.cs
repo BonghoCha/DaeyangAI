@@ -1,12 +1,10 @@
-﻿using System;
-using UnityEngine;
-using System.Collections;
-using System.Text;
-//using System.Diagnostics;
+﻿//using System.Diagnostics;
 using MessageLibrary;
+using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using JetBrains.Annotations;
 
 namespace SimpleWebBrowser
 {
@@ -359,6 +357,7 @@ namespace SimpleWebBrowser
 
                     ProcessScrollInput(px, py);
 
+
                     if (posX != px || posY != py)
                     {
                         MouseMessage msg = new MouseMessage
@@ -369,13 +368,16 @@ namespace SimpleWebBrowser
                             GenericType = MessageLibrary.BrowserEventType.Mouse,
                             // Delta = e.Delta,
                             Button = MouseButton.None
+
+
                         };
+
 
                         if (Input.GetMouseButton(0))
                             msg.Button = MouseButton.Left;
                         if (Input.GetMouseButton(1))
                             msg.Button = MouseButton.Right;
-                        if (Input.GetMouseButton(1))
+                        if (Input.GetMouseButton(2))
                             msg.Button = MouseButton.Middle;
 
                         posX = px;
@@ -509,18 +511,20 @@ namespace SimpleWebBrowser
                 Button = btn
             };
             _mainEngine.SendMouseEvent(msg);
+
         }
 
-        private void ProcessScrollInput(int px, int py)
+        public void ProcessScrollInput(int px, int py)
         {
             float scroll = Input.GetAxis("Mouse ScrollWheel");
 
-            scroll = scroll*_mainEngine.BrowserTexture.height;
+            scroll = py;
 
             int scInt = (int) scroll;
 
             if (scInt != 0)
             {
+
                 MouseMessage msg = new MouseMessage
                 {
                     Type = MouseEventType.Wheel,
@@ -535,12 +539,13 @@ namespace SimpleWebBrowser
                     msg.Button = MouseButton.Left;
                 if (Input.GetMouseButton(1))
                     msg.Button = MouseButton.Right;
-                if (Input.GetMouseButton(1))
+                if (Input.GetMouseButton(2))
                     msg.Button = MouseButton.Middle;
 
                 _mainEngine.SendMouseEvent(msg);
             }
         }
+
 
         #endregion
 
@@ -625,6 +630,26 @@ namespace SimpleWebBrowser
             _mainEngine.Shutdown();
         }
 
+
+        public void Up_Scroll()
+        {
+            ProcessScrollInput(0, 100);
+        }
+
+        public void Down_Scroll()
+        {
+            ProcessScrollInput(0, -100);
+        }
+
+        public void To_TOP()
+        {
+            ProcessScrollInput(0, 10000);
+        }
+
+        public void To_BOTTOM()
+        {
+            ProcessScrollInput(0, -10000);
+        }
 
     }
 }

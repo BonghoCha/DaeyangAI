@@ -195,7 +195,7 @@ public class ButtonScript : MonoBehaviour
         //10) Init the EmotionDetectionAsset. 
         //    Note this takes a couple of seconds as it need to read/parse the shape_predictor_68_face_landmarks database
         // 
-        eda.Initialize(@"", database);
+        eda.Initialize(@"Assets", database);
 
         //11) Read the fuzzy logic rules and parse them.
         // 
