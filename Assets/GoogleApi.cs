@@ -121,6 +121,8 @@ public class GoogleApi : MonoBehaviour
             lat = 37.5482332f;
             lon = 127.0740246f;
         }
+
+        if (!transform.parent.gameObject.active) transform.parent.gameObject.SetActive(true);
         StartCoroutine(Map());
     }
     public void PlusZoom()
